@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: a965965276f03d44f9c1bb7206fccb5f
+guid: 6edd3541f200ae549b7296440137156e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7449963130986522892
-    second: quick spin attack_0
+      213: 3726513504155180785
+    second: SaberDudeMove_0
   - first:
-      213: -2512849272217608574
-    second: quick spin attack_1
+      213: 4189255152684749061
+    second: SaberDudeMove_1
   - first:
-      213: -3687143512061281777
-    second: quick spin attack_2
+      213: 5393718829930046914
+    second: SaberDudeMove_2
   - first:
-      213: 2258375877779083547
-    second: quick spin attack_3
+      213: 4852830496462925763
+    second: SaberDudeMove_3
   - first:
-      213: 1795729881051324836
-    second: quick spin attack_4
+      213: 5617607600783765777
+    second: SaberDudeMove_4
+  - first:
+      213: -6451886916743562194
+    second: SaberDudeMove_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,106 +133,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quick spin attack_0
+      name: SaberDudeMove_0
       rect:
         serializedVersion: 2
         x: 34
-        y: 285
-        width: 79
-        height: 39
-      alignment: 9
-      pivot: {x: 0.25316456, y: 0}
+        y: 354
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f69ac3010a6c9890800000000000000
-      internalID: -7449963130986522892
+      spriteID: 1fe9dd1c94c37b330800000000000000
+      internalID: 3726513504155180785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quick spin attack_1
+      name: SaberDudeMove_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 213
-        width: 111
-        height: 40
-      alignment: 9
-      pivot: {x: 0.4864865, y: 0}
+        x: 34
+        y: 284
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28ede5b86e0902dd0800000000000000
-      internalID: -2512849272217608574
+      spriteID: 501df31ad59332a30800000000000000
+      internalID: 4189255152684749061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quick spin attack_2
+      name: SaberDudeMove_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 145
-        width: 73
+        x: 34
+        y: 214
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5e05cd2b65ada40800000000000000
+      internalID: 5393718829930046914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaberDudeMove_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 144
+        width: 38
         height: 33
-      alignment: 9
-      pivot: {x: 0.739726, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a73b7d282a4dcc0800000000000000
-      internalID: -3687143512061281777
+      spriteID: 3cfead800a7b85340800000000000000
+      internalID: 4852830496462925763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quick spin attack_3
+      name: SaberDudeMove_4
       rect:
         serializedVersion: 2
         x: 34
         y: 74
         width: 38
-        height: 33
-      alignment: 9
-      pivot: {x: 0.5263158, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b11555c35ec575f10800000000000000
-      internalID: 2258375877779083547
+      spriteID: 111304c7950c5fd40800000000000000
+      internalID: 5617607600783765777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quick spin attack_4
+      name: SaberDudeMove_5
       rect:
         serializedVersion: 2
         x: 34
         y: 4
         width: 38
         height: 32
-      alignment: 9
-      pivot: {x: 0.5263158, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a16e9800d6bbe810800000000000000
-      internalID: 1795729881051324836
+      spriteID: e2c7284680b4676a0800000000000000
+      internalID: -6451886916743562194
       vertices: []
       indices: 
       edges: []
