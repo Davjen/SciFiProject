@@ -180,10 +180,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1404
-        width: 91
-        height: 35
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 34
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,10 +201,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1334
-        width: 91
-        height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 61
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,10 +222,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1264
-        width: 90
-        height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 68
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,10 +243,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1194
-        width: 89
+        width: 41
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,10 +264,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1124
-        width: 88
+        width: 42
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,10 +285,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1054
-        width: 88
+        width: 44
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -306,10 +306,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 984
-        width: 88
+        width: 42
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,10 +327,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 914
-        width: 88
+        width: 41
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.58536583, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: telekenisis dart attack_8
       rect:
         serializedVersion: 2
-        x: 30
+        x: 31
         y: 844
-        width: 88
+        width: 41
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5609756, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,10 +369,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 774
-        width: 88
+        width: 40
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,10 +390,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 704
-        width: 88
+        width: 40
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: telekenisis dart attack_11
       rect:
         serializedVersion: 2
-        x: 30
+        x: 33
         y: 634
-        width: 88
+        width: 37
         height: 66
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: telekenisis dart attack_12
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 564
-        width: 91
+        width: 82
         height: 55
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18292683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: telekenisis dart attack_13
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 494
-        width: 91
+        width: 82
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18292683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,12 +472,12 @@ TextureImporter:
       name: telekenisis dart attack_14
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 424
-        width: 91
+        width: 82
         height: 48
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18292683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: telekenisis dart attack_15
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 354
-        width: 91
+        width: 82
         height: 44
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18292683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,12 +514,12 @@ TextureImporter:
       name: telekenisis dart attack_16
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 284
-        width: 91
+        width: 82
         height: 25
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18292683, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,12 +535,12 @@ TextureImporter:
       name: telekenisis dart attack_17
       rect:
         serializedVersion: 2
-        x: 30
+        x: 39
         y: 214
-        width: 91
+        width: 67
         height: 33
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2238806, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: telekenisis dart attack_18
       rect:
         serializedVersion: 2
-        x: 30
+        x: 34
         y: 144
-        width: 91
+        width: 67
         height: 33
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.29850745, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: telekenisis dart attack_19
       rect:
         serializedVersion: 2
-        x: 30
-        y: 75
-        width: 91
+        x: 34
+        y: 74
+        width: 64
         height: 33
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3125, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,12 +598,12 @@ TextureImporter:
       name: telekenisis dart attack_20
       rect:
         serializedVersion: 2
-        x: 30
+        x: 34
         y: 4
-        width: 91
+        width: 62
         height: 33
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.32258064, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
