@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 
     public float testTimerCHarge = 1.5f;
+    bool canMove = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +22,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //TO DO->GESTIRE BENE LE ANIMAZIONI IN MODO CHE VENGANO ESEGUITE SOLO SE NON SONO GIà IN ESECUZIONE.
-        //decidere dove mettere l'animator, se a parte o nel player controller
+
         //impedire la possibilità di muoversi mentre si fa l'attacco speciale.
-        if (Input.GetKey(KeyCode.C)) 
+        if (Input.GetKey(KeyCode.C))
         {
             testTimerCHarge -= Time.deltaTime;
             if (testTimerCHarge <= 0)
@@ -40,7 +41,10 @@ public class PlayerController : MonoBehaviour
         {
             attackScript.PerformAttack(NormalAttack);
         }
-        movement.PerformMove(Speed, SetInput().x);
+        if (canMove)
+        {
+            movement.PerformMove(Speed, SetInput().x);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -54,8 +58,17 @@ public class PlayerController : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-
-
         return new Vector2(x, y);
+    }
+
+    public void DisableMovement()
+    {
+        movement.PerformMove(0, SetInput().x);
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
     }
 }
