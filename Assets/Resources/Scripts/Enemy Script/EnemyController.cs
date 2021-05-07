@@ -14,24 +14,29 @@ public class EnemyController : MonoBehaviour
     {
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
+        AwakeAnim();
     }
     void Update()
     {
         if (!enemyStats.isDead)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                TakeDamage(10);
-            }
-            if (Input.GetKeyDown(KeyCode.T))
-            {
-                Attack();
-            }
-            moveScr.PerformMove(enemyStats.Speed, SetInput().x);
+            //if (Input.GetKeyDown(KeyCode.Space))
+            //{
+            //    TakeDamage(10);
+            //}
+            //if (Input.GetKeyDown(KeyCode.Q))
+            //{
+            //    animator.SetTrigger("Awake");
+            //}
+            //if (Input.GetKeyDown(KeyCode.T))
+            //{
+            //    Attack();
+            //}
+            //moveScr.PerformMove(enemyStats.Speed, SetInput().x);
         }
         else
         {
-            moveScr.PerformMove(0, 0);
+            //moveScr.PerformMove(0, 0);
         }
 
     }
@@ -43,6 +48,10 @@ public class EnemyController : MonoBehaviour
 
 
         return new Vector2(x, y);
+    }
+    public void AwakeAnim()
+    {
+        animator.SetTrigger("Awake");
     }
     public void Attack()
     {
@@ -65,6 +74,14 @@ public class EnemyController : MonoBehaviour
         enemyStats.isDead = true;
         enemyStats.HP = 0;
         animator.SetTrigger("Die");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Debug.Log("entrato");
+            TakeDamage(10);
+        }
     }
 
 }

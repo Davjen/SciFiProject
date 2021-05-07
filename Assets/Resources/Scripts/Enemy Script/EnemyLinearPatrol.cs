@@ -24,7 +24,6 @@ public class EnemyLinearPatrol : MonoBehaviour
         SetStartRaycast();
         RaycastHit2D hit = Physics2D.Raycast(startRay2D, Vector2.down,DownMaxDist);
         Debug.DrawLine(raycastStart.position, raycastStart.position + Vector3.down * DownMaxDist,Color.red);
-        Debug.Log(hit.collider.name);
     }
     void SetStartRaycast()
     {
