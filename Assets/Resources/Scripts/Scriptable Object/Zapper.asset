@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62bcee54ee1d5cf41bd689bf635fce89, type: 3}
   m_Name: Zapper
   m_EditorClassIdentifier: 
-  HP: 0
+  HP: 40
   Damage: 0
   xpToGain: 0
+  Speed: 10
   HaveTarget: 0
-  isDead: 1
+  isDead: 0
   StartHP: 40

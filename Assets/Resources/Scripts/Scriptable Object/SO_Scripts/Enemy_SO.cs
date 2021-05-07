@@ -8,6 +8,7 @@ public class Enemy_SO : ScriptableObject
     public float HP;
     public float Damage;
     public float xpToGain;
+    public float Speed;
     public bool HaveTarget;
     public bool isDead;
 
@@ -18,6 +19,7 @@ public class Enemy_SO : ScriptableObject
     public void Reset()
     {
         HP = StartHP;
+        isDead = false;
     }
     private void OnEnable()
     {
