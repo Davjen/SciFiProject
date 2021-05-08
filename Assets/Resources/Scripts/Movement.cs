@@ -19,6 +19,7 @@ public class Movement : MonoBehaviour
     public void PerformMove(float speed, float xDirection, float yDirection =0)
     {
         FlipSprite(xDirection);
+
         anim.SetFloat("Speed", Mathf.Abs(xDirection));
         float yMove = yDirection!=0 ? yDirection*speed : rb.velocity.y;
         rb.velocity = new Vector2(xDirection * speed, yMove);

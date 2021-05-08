@@ -8,7 +8,7 @@ public class EnemyLinearPatrol : MonoBehaviour
 {
     public float maxDist = 5;
     public Transform raycastStart;
-    public float controlDistance;
+    public float Xoffset;
     public float DownMaxDist = 0.8f;
 
     SpriteRenderer sr;
@@ -29,11 +29,11 @@ public class EnemyLinearPatrol : MonoBehaviour
     {
         if (sr.flipX)
         {
-            raycastStart.position = new Vector3(transform.position.x - controlDistance, raycastStart.position.y, raycastStart.position.z);
+            raycastStart.position = new Vector3(transform.position.x - Xoffset, raycastStart.position.y, raycastStart.position.z);
         }
         else
         {
-            raycastStart.position = new Vector3(transform.position.x + controlDistance, raycastStart.position.y, raycastStart.position.z);
+            raycastStart.position = new Vector3(transform.position.x + Xoffset, raycastStart.position.y, raycastStart.position.z);
 
         }
         startRay2D = new Vector2(raycastStart.position.x, raycastStart.position.y);

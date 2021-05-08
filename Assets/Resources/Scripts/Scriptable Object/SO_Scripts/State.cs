@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class States : ScriptableObject
+public abstract class State : ScriptableObject
 {
-    EnemyController Owner;
+    protected EnemyController Owner;
     public string Name;
     public bool PauseMode;
     public virtual void OnEnterState(EnemyController owner)

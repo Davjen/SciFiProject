@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     AttackScript attackScript;
-    Movement movement;
+    public Movement movement;
     public float Speed;
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 

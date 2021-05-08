@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6762068060424211287, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
+      propertyPath: Brain
+      value: 
+      objectReference: {fileID: 11400000, guid: c1da64c257492874bbd4e1016df65f10, type: 2}
     - target: {fileID: 6762068060424211289, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
       propertyPath: m_Name
       value: Zapper
@@ -411,9 +415,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  NormalAttack: {fileID: 11400000, guid: 035309318e664394e918871f463a22e3, type: 2}
-  SpecialAttack: {fileID: 11400000, guid: bcff06d10b66cb14585820c52bea84cf, type: 2}
-  SpecialAttack2: {fileID: 11400000, guid: f30cab28e350ee542b792860e34d98d6, type: 2}
+  NormalAttack: {fileID: 0}
+  SpecialAttack: {fileID: 0}
+  SpecialAttack2: {fileID: 0}
   testTimerCHarge: 3
 --- !u!61 &479932656
 BoxCollider2D:

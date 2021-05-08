@@ -5,9 +5,11 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public Enemy_SO enemyStats;
+    public Brain Brain;
+    public State[] StatesToStart;
 
     Animator animator;
-    Movement moveScr;
+    [HideInInspector] public Movement moveScr;
 
     // Start is called before the first frame update
     void Start()
@@ -15,9 +17,17 @@ public class EnemyController : MonoBehaviour
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
         AwakeAnim();
+        Brain.ResetBrain();
+        Brain.controller = this;
+        foreach (State state in StatesToStart)
+        {
+            Brain.AddState(state);
+        }
     }
+
     void Update()
     {
+        Brain.ExecuteStates();
         if (!enemyStats.isDead)
         {
             //if (Input.GetKeyDown(KeyCode.Space))

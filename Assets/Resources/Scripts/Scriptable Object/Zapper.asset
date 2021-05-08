@@ -15,7 +15,7 @@ MonoBehaviour:
   HP: 40
   Damage: 0
   xpToGain: 0
-  Speed: 10
+  Speed: 2.22
   HaveTarget: 0
   isDead: 0
   StartHP: 40
