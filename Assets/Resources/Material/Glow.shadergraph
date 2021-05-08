@@ -299,9 +299,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1572.0,
-            "y": -32.000003814697269,
-            "width": 232.00001525878907,
+            "x": 1610.0,
+            "y": 12.999984741210938,
+            "width": 232.0,
             "height": 350.0
         }
     },
@@ -483,8 +483,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 867.0,
-            "y": 294.0,
+            "x": 689.0,
+            "y": 39.999996185302737,
             "width": 141.0,
             "height": 34.0
         }
@@ -838,7 +838,7 @@
     },
     "m_Name": "EmissionSword",
     "m_DefaultReferenceName": "Texture2D_64efae59f57e49f39ebe8360e3d7250f",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_EmissionSword",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
@@ -1254,8 +1254,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 861.0,
-            "y": 255.0,
+            "x": 671.0,
+            "y": 3.0000059604644777,
             "width": 167.0,
             "height": 34.0
         }
@@ -1333,8 +1333,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 868.0,
-            "y": 336.0,
+            "x": 684.0,
+            "y": 89.0,
             "width": 159.0,
             "height": 34.0
         }
@@ -1440,9 +1440,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 651.0,
-            "y": 509.0,
-            "width": 134.0,
+            "x": 360.0,
+            "y": 355.0000305175781,
+            "width": 134.00001525878907,
             "height": 34.0
         }
     },
@@ -1528,7 +1528,7 @@
     },
     "m_Name": "EmissionEye",
     "m_DefaultReferenceName": "Texture2D_f405d78de15449c4b2e7ba3e8bf370ee",
-    "m_OverrideReferenceName": "_Emission",
+    "m_OverrideReferenceName": "_EmissionEye",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
@@ -1654,8 +1654,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 785.0,
-            "y": 470.0,
+            "x": 569.0,
+            "y": 336.0,
             "width": 184.0,
             "height": 253.0
         }

@@ -9,8 +9,11 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 
+    //public PlayerStats player;
     public float testTimerCHarge = 1.5f;
     bool canMove = true;
+
+
     // Start is called before the first frame update
     void Start()
     {

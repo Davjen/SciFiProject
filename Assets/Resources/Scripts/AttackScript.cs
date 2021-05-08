@@ -5,41 +5,29 @@ using UnityEngine;
 public class AttackScript : MonoBehaviour
 {
     Animator anim;
-    bool timedAttack = false;
-    bool attack = false;
 
-    AttackType attackToPerform;
-    // Start is called before the first frame update
+    
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-        if (attack)
-        {
-            PerformAttack(attackToPerform);
-        }
-    }
+    
     public void PerformAttack(AttackType attack)
     {
-        anim.SetTrigger(attack.AttackTypeName);
+        if (!CheckIfAlreadyPlaying(attack))
+            anim.SetTrigger(attack.AttackTypeName);
     }
 
-    public void PerformAttackNow(AttackType attackk)
+
+    bool CheckIfAlreadyPlaying(AttackType attack)
     {
-        attack = true;
-        attackToPerform = attackk;
-
+        AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
+        return info.IsName(attack.AttackTypeName);
     }
 
-    public void PerformTimedAttack()
-    {
-        timedAttack = !timedAttack;
-    }
 
-    void TimedAttack() { }
+
+
 
 }

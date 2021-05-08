@@ -8,6 +8,8 @@ public class AttackType : ScriptableObject
     public float Range;
     public string StrongAgainst;
     public string WeakAgainst;
+
+    //TO DO -> IL SUO UPDATE
 }
 
 
