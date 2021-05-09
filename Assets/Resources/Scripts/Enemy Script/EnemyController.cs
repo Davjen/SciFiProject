@@ -5,8 +5,6 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public Enemy_SO enemyStats;
-    public Brain Brain;
-    public State[] StatesToStart;
 
     Animator animator;
     [HideInInspector] public Movement moveScr;
@@ -16,18 +14,12 @@ public class EnemyController : MonoBehaviour
     {
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
-        AwakeAnim();
-        Brain.ResetBrain();
-        Brain.controller = this;
-        foreach (State state in StatesToStart)
-        {
-            Brain.AddState(state);
-        }
+        //AwakeAnim();
+
     }
 
     void Update()
     {
-        Brain.ExecuteStates();
         if (!enemyStats.isDead)
         {
             //if (Input.GetKeyDown(KeyCode.Space))

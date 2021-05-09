@@ -13,7 +13,6 @@ public class PatrolState : State
     [Header("Debug Ray Size")]
     public bool DebugMode;
     public LayerMask PatrolMask;
-    public DebuggerGizmo gizmo;
 
 
     [Header("States to execute")]
@@ -38,27 +37,23 @@ public class PatrolState : State
         direction = 1;
         base.OnEnterState(owner);
         spriteRenderer = Owner.GetComponent<SpriteRenderer>();
-        if (DebugMode) gizmo = Owner.Brain.CreateDebugger();
         collider = Owner.GetComponent<Collider2D>();
         lastPos = Owner.transform.position;
     }
     public bool BoxCast()
     {
-        Debug.Log("BoxCast");
         Vector2 Owner2Dpos = new Vector2(Owner.transform.position.x, Owner.transform.position.y);
         Vector2 boxCastSize = new Vector2(BoxWidth, collider.bounds.size.y - 0.2f);
         Vector2 boxCastOffsetPos = new Vector2(collider.bounds.size.x * 0.5f + boxCastSize.x * 0.5f + 0.1f, collider.bounds.size.y * 0.5f);
         if (spriteRenderer.flipX)
         {
             boxCastOffsetPos = new Vector2(-boxCastOffsetPos.x, boxCastOffsetPos.y);
-            gizmo.DrawQuad(Owner2Dpos + boxCastOffsetPos, boxCastSize);
             return Physics2D.OverlapBox(Owner2Dpos + boxCastOffsetPos, boxCastSize, 0f, PatrolMask);
         }
         else
         {
             boxCastOffsetPos = new Vector2(boxCastOffsetPos.x, boxCastOffsetPos.y);
 
-            gizmo.DrawQuad(Owner2Dpos + boxCastOffsetPos, boxCastSize);
 
             return Physics2D.OverlapBox(Owner2Dpos + boxCastOffsetPos, boxCastSize, 0f, PatrolMask);
 
