@@ -9,6 +9,7 @@ public class PatrolState : State
     public float DownMaxDist = 0.8f;
     public float FrontMaxDist = 0.3f;
     public float BoxWidth = 0.2f;
+    public float timeForCheckStuck = 1.5f;
 
     [Header("Debug Ray Size")]
     public bool DebugMode;
@@ -21,24 +22,24 @@ public class PatrolState : State
 
     Vector2 startRayPos;
     SpriteRenderer spriteRenderer;
+    Animator anim;
     Collider2D collider;
     Vector3 lastPos;
     float direction = 1;
-    float time;
     
     public override void OnExitState()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("exit");
     }
 
     public override void OnEnterState(EnemyController owner)
     {
-        time = 1;
         direction = 1;
         base.OnEnterState(owner);
         spriteRenderer = Owner.GetComponent<SpriteRenderer>();
         collider = Owner.GetComponent<Collider2D>();
-        lastPos = Owner.transform.position;
+        lastPos = new Vector3(float.MaxValue,float.MaxValue);
+        anim = Owner.transform.GetComponent<Animator>();
     }
     public bool BoxCast()
     {
@@ -70,34 +71,25 @@ public class PatrolState : State
         bool DownHit = Physics2D.Raycast(startRayPos, Vector2.down, DownMaxDist);
         Debug.DrawLine(startRayPos , startRayPos + Vector2.down * 1, Color.red);
 
-        if (BoxCast() || !DownHit || CheckDistanceFromLastPoint())
+        if (BoxCast() || !DownHit)
         {
+            CheckDistanceFromLastPoint();
             lastPos = Owner.transform.position;
+
             direction = -direction;
         }
         Owner.moveScr.PerformMove(Owner.enemyStats.Speed, direction);
 
     }
 
-    bool CheckDistanceFromLastPoint()  //valutare se far cascare i nemici dalle piattaforme e farli ritornare a muovere se si bloccano
+    void CheckDistanceFromLastPoint()  //valutare se far cascare i nemici dalle piattaforme e farli ritornare a muovere se si bloccano
     {
-        time -= Time.deltaTime;
-        if (time <= 0)
+        if (Vector3.Distance(Owner.transform.position,lastPos) < 1f)
         {
-            if (Vector3.Distance(Owner.transform.position,lastPos)< 0.5)
-            {
-                direction = 0;
-            }
-            else
-            {
-                time = 1;
-            }
+            direction = 0;
+            anim.SetTrigger("Idle");
+            Debug.Log(Owner.transform.name + " è bloccato");
         }
-        if (Vector3.Distance(Owner.transform.position, lastPos) >= maxDist)
-        {
-            return true;
-        }
-        else return false;
     }
     void SetStartRaycast()
     {
