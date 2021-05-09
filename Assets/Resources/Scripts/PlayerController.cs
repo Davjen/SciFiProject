@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float testTimerCHarge = 0.7f;
     bool canMove = true;
 
+    float timer = 0.7f;
+
     //DA RIMUOVERE
     public GameObject debugger;
 
@@ -29,31 +31,29 @@ public class PlayerController : MonoBehaviour
     {
 
         //TEST MOUSE SPAWN-->DA SPOSTARE SU TP
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Debug.LogWarning("perchè spawna giusto ma non si vede l'oggetto?");
-           GameObject go= Instantiate(debugger);
-            go.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
 
-        if (Input.GetKey(KeyCode.C))
+
+        if (Input.GetKey(KeyCode.Space))
         {
             testTimerCHarge -= Time.deltaTime;
+            Debug.Log("ciao");
             if (testTimerCHarge <= 0)
             {
                 attackScript.PerformAttack("SpecialAttack");
+                Debug.Log("entro");
                 testTimerCHarge = .7f;
             }
         }
-        else
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-            testTimerCHarge = .7f;
+            Debug.Log("entroupo");
+            if (testTimerCHarge <= .6f)
+            {
+                attackScript.PerformAttack("NormalAttack");
+                testTimerCHarge = .7f;
+            }
         }
-            
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            attackScript.PerformAttack("NormalAttack");
-        }
+
         if (canMove)
         {
             movement.PerformMove(Speed, SetInput().x);
