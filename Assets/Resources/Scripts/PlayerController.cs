@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("COMPONENTS")]
     AttackScript attackScript;
-    public Movement movement;
+    Movement movement;
+    Teleport teleport;
     public float Speed;
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         movement = GetComponent<Movement>();
         attackScript = GetComponent<AttackScript>();
+        teleport = GetComponent<Teleport>();
     }
 
     // Update is called once per frame
@@ -57,6 +60,15 @@ public class PlayerController : MonoBehaviour
         if (canMove)
         {
             movement.PerformMove(Speed, SetInput().x);
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            Vector2 position2Spawn;
+            if(teleport.PerformTeleport(out position2Spawn))
+            {
+                transform.position = position2Spawn;
+            }
         }
     }
 
