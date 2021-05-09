@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 
-    //public PlayerStats player;
-    public float testTimerCHarge = 1.5f;
+    public PlayerStats player;
+    public float testTimerCHarge = 0.7f;
     bool canMove = true;
+
+    //DA RIMUOVERE
+    public GameObject debugger;
 
 
     // Start is called before the first frame update
@@ -24,25 +27,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //TO DO->GESTIRE BENE LE ANIMAZIONI IN MODO CHE VENGANO ESEGUITE SOLO SE NON SONO GIà IN ESECUZIONE.
 
-        //impedire la possibilità di muoversi mentre si fa l'attacco speciale.
+        //TEST MOUSE SPAWN-->DA SPOSTARE SU TP
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.LogWarning("perchè spawna giusto ma non si vede l'oggetto?");
+           GameObject go= Instantiate(debugger);
+            go.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
+
         if (Input.GetKey(KeyCode.C))
         {
             testTimerCHarge -= Time.deltaTime;
             if (testTimerCHarge <= 0)
             {
-                attackScript.PerformAttack(SpecialAttack);
-                testTimerCHarge = 1.5f;
+                attackScript.PerformAttack("SpecialAttack");
+                testTimerCHarge = .7f;
             }
         }
         else
         {
-            testTimerCHarge = 1.5f;
+            testTimerCHarge = .7f;
         }
+            
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            attackScript.PerformAttack(NormalAttack);
+            attackScript.PerformAttack("NormalAttack");
         }
         if (canMove)
         {
@@ -62,6 +72,18 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         return new Vector2(x, y);
+    }
+
+    public void SwitchPlayer(PlayerStats player2Switch)
+    {
+        //-->chiamare animazione scomparsa sul vecchio
+        player = player2Switch;
+        //chiamare animazione comparsa sul nuovo
+    }
+
+    float CheckHpStatus()
+    {
+        return player.Hp;
     }
 
     public void DisableMovement()
