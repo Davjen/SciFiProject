@@ -24,7 +24,7 @@ public class Teleport : MonoBehaviour
         if (CheckCollisionWithObstacles(MousePositionConverter(), out position2Spawn))
         {
             anim.SetTrigger("Teleport");//TO DO FARE UN CONTROLLER RIGUARDO L'ANIMAZIONE per non farla + volte
-        Debug.Log(position2Spawn);
+       
             return true;
         }
         return false;
@@ -32,7 +32,6 @@ public class Teleport : MonoBehaviour
     public bool CheckCollisionWithObstacles(Vector2 position, out Vector2 SpawnPoint)
     {
         RaycastHit2D hitPoint = FindPlatformToTeleport(position);
-
 
         //FIRST DRAW A RAY CHECKING FIRST OBSTACLES ("GROUND")
         SpawnPoint = Vector2.zero;

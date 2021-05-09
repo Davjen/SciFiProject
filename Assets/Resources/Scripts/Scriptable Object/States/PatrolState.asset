@@ -20,10 +20,10 @@ MonoBehaviour:
   DownMaxDist: 0.8
   FrontMaxDist: 0.3
   BoxWidth: 0.2
+  timeForCheckStuck: 1.5
   DebugMode: 1
   PatrolMask:
     serializedVersion: 2
     m_Bits: 64
-  gizmo: {fileID: 0}
   ShootState: {fileID: 0}
   ChaseState: {fileID: 0}
