@@ -17,19 +17,19 @@ public class PatrolState : State
 
 
     [Header("States to execute")]
-    public State ShootState;
-    public State ChaseState;
+    public string OnPatrolPause;
+    public string OnPlayerOnRange;
 
     Vector2 startRayPos;
     SpriteRenderer spriteRenderer;
-    Animator anim;
     Collider2D collider;
     Vector3 lastPos;
     float direction = 1;
     
     public override void OnExitState()
     {
-        Debug.Log("exit");
+        direction = 0;
+        Owner.moveScr.PerformMove(Owner.enemyStats.Speed, direction);
     }
 
     public override void OnEnterState(EnemyController owner)
@@ -39,7 +39,6 @@ public class PatrolState : State
         spriteRenderer = Owner.GetComponent<SpriteRenderer>();
         collider = Owner.GetComponent<Collider2D>();
         lastPos = new Vector3(float.MaxValue,float.MaxValue);
-        anim = Owner.transform.GetComponent<Animator>();
     }
     public bool BoxCast()
     {

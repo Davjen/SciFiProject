@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public Enemy_SO enemyStats;
 
     Animator animator;
+    Material mat;
     [HideInInspector] public Movement moveScr;
 
     // Start is called before the first frame update
@@ -14,8 +15,8 @@ public class EnemyController : MonoBehaviour
     {
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
-        //AwakeAnim();
-
+        mat = GetComponent<SpriteRenderer>().material;
+        AwakeAnim();
     }
 
     void Update()
@@ -61,6 +62,8 @@ public class EnemyController : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
+        if (enemyStats.isDead) return;
+
         if (enemyStats.HP <= damage)
         {
             Die();
@@ -68,8 +71,13 @@ public class EnemyController : MonoBehaviour
         else
         {
             enemyStats.HP -= damage;
-            animator.SetTrigger("Damage");
+            mat.SetFloat("Damaged", 1);
+            Invoke("TurnOffDamage", 0.1f);
         }
+    }
+    private void TurnOffDamage()
+    {
+        mat.SetFloat("Damaged", 0);
     }
     void Die()
     {
