@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     bool canMove = true;
 
     float timer = 0.7f;
+    Vector2 position2Spawn;
 
     //DA RIMUOVERE
     public GameObject debugger;
@@ -64,11 +65,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1))
         {
-            Vector2 position2Spawn;
-            if(teleport.PerformTeleport(out position2Spawn))
-            {
-                transform.position = position2Spawn;
-            }
+            teleport.PerformTeleport(out position2Spawn);
         }
     }
 
@@ -77,7 +74,10 @@ public class PlayerController : MonoBehaviour
         //eventuale guadagno di fury per il supercolpo?
     }
 
-
+    public void Teleport()
+    {
+        transform.position = position2Spawn;
+    }
     Vector2 SetInput()
     {
 

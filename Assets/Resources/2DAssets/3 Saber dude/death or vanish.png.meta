@@ -279,7 +279,11 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: c9b61a4dd3d1ebc4e86985cf998e3ad6, type: 3}
+      name: _EmissionSword
+    - texture: {fileID: 2800000, guid: 3e70a43aee1fe254183e19a40b975033, type: 3}
+      name: _EmissionEye
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
