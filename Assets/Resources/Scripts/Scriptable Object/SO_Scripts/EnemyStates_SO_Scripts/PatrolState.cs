@@ -17,8 +17,7 @@ public class PatrolState : State
 
 
     [Header("States to execute")]
-    public string OnPatrolPause;
-    public string OnPlayerOnRange;
+    public Transition PatrolPause;
 
     Vector2 startRayPos;
     SpriteRenderer spriteRenderer;

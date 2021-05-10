@@ -16,7 +16,7 @@ public class EnemyController : MonoBehaviour
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
         mat = GetComponent<SpriteRenderer>().material;
-        AwakeAnim();
+        //AwakeAnim();
     }
 
     void Update()

@@ -6,23 +6,33 @@ using UnityEngine;
 public class EnemyAwaitForPlayerInRange : State
 {
     public float Range = 3;
+    public bool checkIfEnterOnRadius = true;
 
     [Header("triggers")]
     public Transition OnPlayerInRange;
 
-    GameObject player;
 
     public override void OnExitState()
     {
-        throw new System.NotImplementedException();
+        return;
     }
 
     public override void StateUpdate()
     {
-        if (Vector3.Distance(player.transform.position,Owner.transform.position)<=Range)
+        if (checkIfEnterOnRadius)
         {
-            anim.avatar = null;
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) <= Range)
+            {
+                AnimatorSetParam(OnPlayerInRange);
+            }
+        }else
+        {
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) >= Range)
+            {
+                AnimatorSetParam(OnPlayerInRange);
+            }
         }
+
     }
 
     public override void OnEnterState(EnemyController owner)

@@ -140,8 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyStats: {fileID: 11400000, guid: 56523220d1ff7a244b73418c35bf7ea8, type: 2}
-  Brain: {fileID: 0}
-  StatesToStart: []
+  moveScr: {fileID: 0}
 --- !u!114 &6762068060424211280
 MonoBehaviour:
   m_ObjectHideFlags: 0
