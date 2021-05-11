@@ -5,7 +5,6 @@ using UnityEngine;
 public class Teleport : MonoBehaviour
 {
     public LayerMask TeleportableGround;
-    
     Vector2 charDimension;
     float TPDownCheckDistance = 4;
     float BoxCheckSideDistance;
@@ -35,30 +34,30 @@ public class Teleport : MonoBehaviour
         }
     }
     /// <summary>
-    /// Check if player can be spawn in the location.If not try the closest point if possible.
+    /// Teleport Check Collision
     /// </summary>
-    /// <param name="position"> MousePosition when click </param>
-    /// <param name="SpawnPoint">The position where player can be teleported</param>
+    /// <param name="position"></param>
+    /// <param name="SpawnPoint"></param>
     /// <returns></returns>
     public bool CheckCollisionWithObstacles(Vector2 position, out Vector2 SpawnPoint)
     {
-        //FIRST DRAW A RAY CHECKING FIRST OBSTACLES ("GROUND")
         RaycastHit2D hitPoint = FindPlatformToTeleport(position);
+        Debug.LogWarning("FUNZIONA QUASI PERFETTAMENTE");
+
+        //FIRST DRAW A RAY CHECKING FIRST OBSTACLES ("GROUND")
         SpawnPoint = Vector2.zero;
-        
         if (hitPoint)
         {
 
             //I FOUND A PLATFORM, NOW I NEED TO CHECK IF THERE IS ENOUGH SPACE TO SPAWN THE PLAYER
             Vector2 BoxCheckPosition = new Vector2(hitPoint.point.x, hitPoint.point.y + .05f + charDimension.y * 0.5f);
 
-            //FIRST BOX CHECK(1/4 CHAR DIM ON X)
-            RaycastHit2D rightBox = Physics2D.BoxCast(BoxCheckPosition + new Vector2(charDimension.x * .25f, 0),charDimension, 0, Vector2.right, BoxCheckSideDistance, TeleportableGround);
-            RaycastHit2D leftBox = Physics2D.BoxCast(BoxCheckPosition - new Vector2(charDimension.x * .25f, 0), charDimension, 0, Vector2.left, BoxCheckSideDistance, TeleportableGround);
+            //FIRST BOX CHECK(HALF CHAR DIM ON X)
+            RaycastHit2D rightBox = Physics2D.BoxCast(BoxCheckPosition + new Vector2(charDimension.x * .25f, 0), charDimension /** .5f*/, 0, Vector2.right, BoxCheckSideDistance, TeleportableGround);
+            RaycastHit2D leftBox = Physics2D.BoxCast(BoxCheckPosition - new Vector2(charDimension.x * .25f, 0), charDimension /** .5f*/, 0, Vector2.left, BoxCheckSideDistance, TeleportableGround);
 
             if (rightBox && leftBox)
             {
-
 
                 float topRightColliderPosition = (rightBox.collider.bounds.size.y * 0.5f) + rightBox.transform.position.y;
                 float topLeftColliderPosition = (leftBox.collider.bounds.size.y * 0.5f) + leftBox.transform.position.y;
@@ -106,10 +105,7 @@ public class Teleport : MonoBehaviour
     {
         return Physics2D.Raycast(position, Vector2.down, TPDownCheckDistance, TeleportableGround);
     }
-    /// <summary>
-    /// convert screen to world point
-    /// </summary>
-    /// <returns></returns>
+
     public Vector2 MousePositionConverter()
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
