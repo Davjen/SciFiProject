@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     Teleport teleport;
     ReflectiveShield shield;
     public float Speed;
-    public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
-
     public PlayerStats player;
     public float testTimerCHarge = 0.7f;
     bool canMove = true;
@@ -39,7 +37,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             //to do->defence move
-            shield.PerformShield("pippo");
+            shield.PerformShield("SpecialAttack2");
+
         }
 
 

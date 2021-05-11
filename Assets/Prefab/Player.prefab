@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 7094005263893790794}
   - component: {fileID: 7094005263893790804}
   - component: {fileID: 7094005263893790805}
+  - component: {fileID: 6962265242215409100}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -277,7 +278,7 @@ BoxCollider2D:
   m_Offset: {x: -0.052911043, y: 0.39591044}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5263158, y: 0}
     oldSize: {x: 2.375, y: 2.125}
     newSize: {x: 2.375, y: 2.125}
     adaptiveTilingThreshold: 0.5
@@ -303,3 +304,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.9793849}
   serializedVersion: 2
   m_Radius: 1.1043849
+--- !u!114 &6962265242215409100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7094005263893790797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78438a860561fd4b8b6413efcf23d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationName: SpecialAttack2
