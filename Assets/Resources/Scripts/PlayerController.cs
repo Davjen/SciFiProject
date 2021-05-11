@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     AttackScript attackScript;
     Movement movement;
     Teleport teleport;
+    ReflectiveShield shield;
     public float Speed;
     public AttackType NormalAttack, SpecialAttack, SpecialAttack2;
 
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
         movement = GetComponent<Movement>();
         attackScript = GetComponent<AttackScript>();
         teleport = GetComponent<Teleport>();
+        shield = GetComponent<ReflectiveShield>();
     }
 
     // Update is called once per frame
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             //to do->defence move
+            shield.PerformShield();
         }
 
         MoveInput();
