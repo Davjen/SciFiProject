@@ -35,6 +35,7 @@ public class ReflectiveShield : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-
+        //consuma la risorsa
+        collision.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("aTTACKmoDE");
     }
 }
