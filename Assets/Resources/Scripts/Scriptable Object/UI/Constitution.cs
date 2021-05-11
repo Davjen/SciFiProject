@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class Constitution : Stats
 {
-    
+    public Stats MaxHP, BaseHp;
+    public override void Logic()
+    {
+        MaxHP.Value = BaseHp.Value + Value;
+    }
 }
