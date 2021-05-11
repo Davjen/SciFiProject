@@ -35,51 +35,44 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AttackInput();
 
         if (Input.GetKey(KeyCode.Q))
         {
             //to do->defence move
-            shield.PerformShield();
+            shield.PerformShield("pippo");
         }
 
-        MoveInput();
 
-        TeleportInput();
-    }
 
-    private void TeleportInput()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            teleport.PerformTeleport(out position2Spawn);
-        }
-    }
-
-    private void MoveInput()
-    {
-        if (canMove)
-            movement.PerformMove(Speed, SetInput().x);
-    }
-
-    private void AttackInput()
-    {
         if (Input.GetKey(KeyCode.Space))
         {
             testTimerCHarge -= Time.deltaTime;
+            Debug.Log("ciao");
             if (testTimerCHarge <= 0)
             {
                 attackScript.PerformAttack("SpecialAttack");
+                Debug.Log("entro");
                 testTimerCHarge = .7f;
             }
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
+            Debug.Log("entroupo");
             if (testTimerCHarge <= .6f)
             {
                 attackScript.PerformAttack("NormalAttack");
                 testTimerCHarge = .7f;
             }
+        }
+
+        if (canMove)
+        {
+            movement.PerformMove(Speed, SetInput().x);
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            teleport.PerformTeleport(out position2Spawn);
         }
     }
 
