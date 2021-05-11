@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     {
         FlipSprite(xDirection);
 
-        //anim.SetFloat("Speed", Mathf.Abs(xDirection));
+        anim.SetFloat("Speed", Mathf.Abs(xDirection));
         float yMove = yDirection!=0 ? yDirection*speed : rb.velocity.y;
         rb.velocity = new Vector2(xDirection * speed, yMove);
     }
