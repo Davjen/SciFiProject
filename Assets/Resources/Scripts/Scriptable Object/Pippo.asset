@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Pippo
   m_EditorClassIdentifier: 
   Name: 
-  MaxHp: 0
+  MaxHp: {fileID: 0}
   Hp: 0
-  BaseHP: 0
+  BaseHP: {fileID: 0}
+  constitution: 0
+  SpecialStats: {fileID: 11400000, guid: ffd7fec7a51c19e49965ac7fed12ece0, type: 2}
   PlayerStatistics: []
