@@ -19,3 +19,8 @@ MonoBehaviour:
   HaveTarget: 0
   isDead: 0
   StartHP: 40
+  PatrolMaxDist: 7
+  DistForEnterChase: 5
+  DistForEnterAttack: 3
+  WakeDistance: 10
+  chanceToStartPatrol: 50

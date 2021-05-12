@@ -195,7 +195,7 @@ AnimatorStateMachine:
     m_Position: {x: 290, y: 490, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3765972837790114394}
-    m_Position: {x: 300, y: 310, z: 0}
+    m_Position: {x: 300, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3920853607502013523}
     m_Position: {x: 520, y: 200, z: 0}
@@ -711,3 +711,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   states:
   - {fileID: 11400000, guid: dc33eb8ae66a5854ca0d36de35a03786, type: 2}
+  - {fileID: 11400000, guid: 685440fccdd889e479842721f9c9c9dd, type: 2}

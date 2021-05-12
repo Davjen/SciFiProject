@@ -5,11 +5,13 @@ using UnityEngine;
 public class PatrolState : State
 {
     public float maxDist = 5;
+    public float timeForCheckStuck = 1.5f;
+
+    [Header("RayCast Dimension")]
     public float Xoffset, Yoffset;
+    public float BoxWidth = 0.2f;
     public float DownMaxDist = 0.8f;
     public float FrontMaxDist = 0.3f;
-    public float BoxWidth = 0.2f;
-    public float timeForCheckStuck = 1.5f;
 
     [Header("Debug Ray Size")]
     public bool DebugMode;
@@ -37,7 +39,7 @@ public class PatrolState : State
         base.OnEnterState(owner);
         spriteRenderer = Owner.GetComponent<SpriteRenderer>();
         collider = Owner.GetComponent<Collider2D>();
-        lastPos = new Vector3(float.MaxValue,float.MaxValue);
+        lastPos = owner.transform.position;
     }
     public bool BoxCast()
     {
@@ -63,13 +65,14 @@ public class PatrolState : State
 
     public override void StateUpdate()
     {
+        if (PauseMode) return;
 
         SetStartRaycast();
         Vector2 Owner2Dpos = new Vector2(Owner.transform.position.x, Owner.transform.position.y);
         bool DownHit = Physics2D.Raycast(startRayPos, Vector2.down, DownMaxDist);
         Debug.DrawLine(startRayPos , startRayPos + Vector2.down * 1, Color.red);
 
-        if (BoxCast() || !DownHit)
+        if (BoxCast() || !DownHit || CheckMaxDistReached())
         {
             CheckDistanceFromLastPoint();
             lastPos = Owner.transform.position;
@@ -79,6 +82,14 @@ public class PatrolState : State
         Owner.moveScr.PerformMove(Owner.enemyStats.Speed, direction);
 
     }
+    bool CheckMaxDistReached()
+    {
+        if (Vector3.Distance(Owner.transform.position, lastPos) > Owner.enemyStats.PatrolMaxDist)
+        {
+            return true;
+        }
+        else return false;
+    }
 
     void CheckDistanceFromLastPoint()  //valutare se far cascare i nemici dalle piattaforme e farli ritornare a muovere se si bloccano
     {
@@ -87,7 +98,7 @@ public class PatrolState : State
             direction = 0;
             anim.SetTrigger("Idle");
             Debug.Log(Owner.transform.name + " è bloccato");
-        }
+        } 
     }
     void SetStartRaycast()
     {
