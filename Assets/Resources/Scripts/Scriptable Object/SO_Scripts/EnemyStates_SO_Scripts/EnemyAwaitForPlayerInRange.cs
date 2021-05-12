@@ -5,13 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AwaitForRange", menuName = "IA/AwaitForRange")]
 public class EnemyAwaitForPlayerInRange : State
 {
-    public float Range = 3;
     public bool checkIfEnterOnRadius = true;
+    public RangeToCheck rangeToCheck;
 
     [Header("triggers")]
     public Transition OnPlayerInRange;
 
-
+    private float Range;
     public override void OnExitState()
     {
         return;
@@ -39,5 +39,20 @@ public class EnemyAwaitForPlayerInRange : State
     {
         base.OnEnterState(owner);
         player = GameObject.FindGameObjectWithTag("Player");
+
+        switch (rangeToCheck)
+        {
+            case RangeToCheck.Chase:
+                Range = Owner.enemyStats.DistForEnterChase;
+                break;
+            case RangeToCheck.Attack:
+                Range = Owner.enemyStats.DistForEnterAttack;
+                break;
+            case RangeToCheck.Wake:
+                Range = Owner.enemyStats.WakeDistance;
+                break;
+        }
     }
 }
+
+public enum RangeToCheck {Chase,Attack,Wake }

@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
         rb.velocity = new Vector2(xDirection * speed, yMove);
     }
 
-    void FlipSprite(float direction)
+    public void FlipSprite(float direction)
     {
         if (direction > 0)
         {
