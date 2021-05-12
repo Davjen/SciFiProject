@@ -19,6 +19,10 @@ public class AttackScript : MonoBehaviour
             anim.SetTrigger(AttackType);
     }
 
+    public void PerformSpecialAttack()
+    {
+
+    }
     /// <summary>
     /// Check if is already playing the same animation or not interruptable skill.
     /// </summary>
