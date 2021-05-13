@@ -17,7 +17,6 @@ public class EnemyWeaponController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log(collision.name);
             enemyStats.attackToPerform.PerformAttack(collision.GetComponent<PlayerController>());
         }
     }

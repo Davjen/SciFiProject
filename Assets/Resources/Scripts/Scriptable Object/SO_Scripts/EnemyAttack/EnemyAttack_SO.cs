@@ -6,7 +6,8 @@ public abstract class EnemyAttack_SO : ScriptableObject
 {
     public float damage;
     public float chance;
-    public PlayerController player;
+    
+    [HideInInspector]public PlayerController player;
 
     public abstract void PerformAttack(PlayerController player);
 }
