@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36acd21b5f8dc704891c9a054706d504, type: 3}
+  m_Name: ThougnessBoost 1
+  m_EditorClassIdentifier: 
+  Skill: {fileID: 11400000, guid: e8798f8692f50f744bc7f1ec9614de07, type: 2}
+  NextSkills:
+  - {fileID: 11400000, guid: 1eb8d3ad4fb902c4582dad5480f97082, type: 2}
+  - {fileID: 11400000, guid: 8603556d0fd7f584a8bf9c8d0b0f0efa, type: 2}
