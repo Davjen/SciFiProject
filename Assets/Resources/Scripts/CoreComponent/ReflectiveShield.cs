@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class ReflectiveShield : MonoBehaviour
 {
+
+    //TO DO -->SPOSTARE TUTTO SU SCRIPTABLE OBJECT
     Animator anim;
     public string AnimationName;
 
     public PlayerStats player;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +23,7 @@ public class ReflectiveShield : MonoBehaviour
 
     public void PerformShield(string skillName)
     {
-        //TO DO -> Consumo statistica consumabile
+
         //Sulla base del tipo di attacco può essere completamente protettiva o parzialmente.
         if (!CheckIfAlreadyPlaying())
         {

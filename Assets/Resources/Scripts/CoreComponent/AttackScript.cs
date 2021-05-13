@@ -13,13 +13,18 @@ public class AttackScript : MonoBehaviour
     }
 
     
-    public void PerformAttack(string AttackType)
+    public void PerformNormalAttack(string AttackType)
     {
         if (!CheckIfAlreadyPlaying(AttackType))
             anim.SetTrigger(AttackType);
     }
 
     public void PerformSpecialAttack()
+    {
+
+    }
+
+    public void PerformDefensiveAttack()
     {
 
     }

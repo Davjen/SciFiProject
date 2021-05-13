@@ -5,29 +5,27 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("COMPONENTS")]
-    AttackScript attackScript;
-    Movement movement;
-    Teleport teleport;
-    ReflectiveShield shield;
+    public AttackScript attackScript;
+    public Movement movement;
+    public Teleport teleport;
+    public ReflectiveShield shield;
+
+    [Space]
     public float Speed;
+    public float ConsumableResourceCost;
     public PlayerStats player;
     public float testTimerCHarge = 0.7f;
     bool canMove = true;
 
-    float timer = 0.7f;
     Vector2 position2Spawn;
 
     //DA RIMUOVERE
-    public GameObject debugger;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        movement = GetComponent<Movement>();
-        attackScript = GetComponent<AttackScript>();
-        teleport = GetComponent<Teleport>();
-        shield = GetComponent<ReflectiveShield>();
     }
 
     // Update is called once per frame
@@ -36,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Q))
         {
-            //to do->defence move
+            if(player.consumableResource.DecreaseResource(ConsumableResourceCost))
             shield.PerformShield("SpecialAttack2");
 
         }
@@ -49,7 +47,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("ciao");
             if (testTimerCHarge <= 0)
             {
-                attackScript.PerformAttack("SpecialAttack");
+                attackScript.PerformNormalAttack("SpecialAttack");
                 Debug.Log("entro");
                 testTimerCHarge = .7f;
             }
@@ -59,7 +57,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("entroupo");
             if (testTimerCHarge <= .6f)
             {
-                attackScript.PerformAttack("NormalAttack");
+                attackScript.PerformNormalAttack("NormalAttack");
                 testTimerCHarge = .7f;
             }
         }
@@ -77,6 +75,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        player.consumableResource.IncreaseResource(100);
         //eventuale guadagno di fury per il supercolpo?
     }
 
