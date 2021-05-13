@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7094005263893790792, guid: 39420f04aa8c6594683482e501f072da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.35
+      value: 22.32
       objectReference: {fileID: 0}
     - target: {fileID: 7094005263893790792, guid: 39420f04aa8c6594683482e501f072da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.02
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 7094005263893790792, guid: 39420f04aa8c6594683482e501f072da, type: 3}
       propertyPath: m_LocalPosition.z
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 7094005263893790797, guid: 39420f04aa8c6594683482e501f072da, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094005263893790804, guid: 39420f04aa8c6594683482e501f072da, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39420f04aa8c6594683482e501f072da, type: 3}
@@ -1784,6 +1788,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1388465110074583244, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
+      propertyPath: m_Size.x
+      value: 0.1132431
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388465110074583244, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
+      propertyPath: m_Size.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388465110074583244, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.002954483
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388465110074583244, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3655484752696106369, guid: 0a28986e2e28aa848b9b0e96b000d632, type: 3}
       propertyPath: m_Offset.x
       value: 0

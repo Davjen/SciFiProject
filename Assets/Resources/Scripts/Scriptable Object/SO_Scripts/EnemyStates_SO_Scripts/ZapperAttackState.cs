@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ZapperAttackState", menuName = "IA/Zapper/AttackState")]
 public class ZapperAttackState : State
 {
+    public EnemyAttack_SO attackToPerform;
     private float direction = 0;
     public override void OnExitState()
     {
@@ -16,5 +17,10 @@ public class ZapperAttackState : State
         direction = -Mathf.Sign(Owner.transform.position.x - player.transform.position.x);
         Owner.moveScr.FlipSprite(direction);
 
+    }
+    public override void OnEnterState(EnemyController owner)
+    {
+        base.OnEnterState(owner);
+        owner.enemyStats.attackToPerform = attackToPerform;
     }
 }

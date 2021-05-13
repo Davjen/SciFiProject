@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public Enemy_SO enemyStats;
+    public GameObject weapon;
 
     Animator animator;
     Material mat;
@@ -84,14 +85,16 @@ public class EnemyController : MonoBehaviour
         enemyStats.isDead = true;
         enemyStats.HP = 0;
         animator.SetTrigger("Die");
+        GetComponent<Collider2D>().enabled = false;
+        weapon.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
-        {
-            Debug.Log("entrato");
-            TakeDamage(10);
-        }
+        //if (collision.tag == "Player")
+        //{
+        //    Debug.Log("entrato");
+        //    TakeDamage(10);
+        //}
     }
 
 }
