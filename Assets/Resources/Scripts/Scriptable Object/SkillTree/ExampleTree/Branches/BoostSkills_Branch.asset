@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce74991d2a657b4c86c0efe041dd190, type: 3}
+  m_Name: BoostSkills_Branch
+  m_EditorClassIdentifier: 
+  BranchName: Boost Branch
+  BranchIndex: 0
+  Skills:
+  - {fileID: 11400000, guid: d0e1ad341991cf346aaa966a4615f825, type: 2}
+  - {fileID: 11400000, guid: 286012f20737e2444b85e6c97b8ea291, type: 2}
+  - {fileID: 11400000, guid: 32160c4ade7191c4ba701a39b94ef033, type: 2}
+  - {fileID: 11400000, guid: 5e1eb39dac0e13449b3404a98dc0a3f3, type: 2}
+  - {fileID: 11400000, guid: 1eb8d3ad4fb902c4582dad5480f97082, type: 2}
+  - {fileID: 11400000, guid: 8603556d0fd7f584a8bf9c8d0b0f0efa, type: 2}

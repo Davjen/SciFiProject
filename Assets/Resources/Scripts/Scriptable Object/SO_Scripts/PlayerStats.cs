@@ -16,6 +16,7 @@ public class PlayerStats : ScriptableObject
 
     [Header("Stats")]
     public Stats[] PlayerStatistics;
+    public ConsumableResource consumableResource;
 
     public Dictionary<string, Stats> Stats = new Dictionary<string, Stats>();
 

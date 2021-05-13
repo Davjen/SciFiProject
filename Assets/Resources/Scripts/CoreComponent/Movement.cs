@@ -27,12 +27,8 @@ public class Movement : MonoBehaviour
 
     public void FlipSprite(float direction)
     {
-        if (direction > 0)
-        {
-            sr.flipX = false;
-        }else if (direction < 0)
-        {
-            sr.flipX = true;
-        }
+        if(direction<0)
+            transform.localScale =new Vector2(Mathf.Sign(direction)*transform.localScale.x,transform.localScale.y);
+
     }
 }
