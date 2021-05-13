@@ -7,6 +7,7 @@ public class PlayerStats : ScriptableObject
     public string Name;
     public Stats MaxHp;
     public float Hp;
+    public bool IsDead;
     public Stats BaseHP;
 
     public float constitution;

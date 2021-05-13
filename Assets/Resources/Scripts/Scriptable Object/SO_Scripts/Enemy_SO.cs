@@ -6,12 +6,12 @@ using UnityEngine;
 public class Enemy_SO : ScriptableObject
 {
     public float HP;
-    public float Damage;
     public float xpToGain;
     public float Speed;
     public bool HaveTarget;
     public bool isDead;
 
+    public EnemyAttack_SO attackToPerform;
 
     [Header("START PROP")]
     public float StartHP;

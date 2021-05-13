@@ -113,4 +113,20 @@ public class PlayerController : MonoBehaviour
     {
         canMove = true;
     }
+
+    public void TakeDamage(float damage)
+    {
+        Debug.Log("player danneggiato");
+        if (player.IsDead) return;
+
+        if (player.Hp <= damage)
+        {
+            //player morto
+            player.IsDead = true;
+        }
+        else
+        {
+            player.Hp -= damage;
+        }
+    }
 }
