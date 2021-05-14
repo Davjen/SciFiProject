@@ -30,7 +30,8 @@ public class PatrolState : State
     public override void OnExitState()
     {
         direction = 0;
-        Owner.moveScr.PerformMove(Owner.enemyStats.Speed, direction);
+        Debug.LogWarning("disabilitato movimento patrol");
+        //Owner.moveScr.PerformMove(Owner.enemyStats.Speed, direction);
     }
 
     public override void OnEnterState(EnemyController owner)
