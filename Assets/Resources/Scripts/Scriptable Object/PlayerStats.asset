@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24bc5d2a86eb5cd449a64d52e17d19ec, type: 3}
-  m_Name: Pippo
+  m_Name: PlayerStats
   m_EditorClassIdentifier: 
   Name: 
   MaxHp: {fileID: 0}
   Hp: 0
+  IsDead: 0
   BaseHP: {fileID: 0}
   constitution: 0
   SpecialStats: {fileID: 11400000, guid: ffd7fec7a51c19e49965ac7fed12ece0, type: 2}
   PlayerStatistics: []
+  consumableResource: {fileID: 11400000, guid: 896c8fec12c8dd64e9357452cf70ffc6, type: 2}
