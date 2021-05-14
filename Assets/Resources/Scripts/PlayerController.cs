@@ -31,16 +31,40 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        SpecialAttack();
+        Attack();
+        Move();
+        TeleportOnClick();
+    }
 
+    private void SpecialAttack()
+    {
         if (Input.GetKey(KeyCode.Q))
         {
-            if(player.consumableResource.DecreaseResource(ConsumableResourceCost))
-            shield.PerformShield("SpecialAttack2");
+            if (player.consumableResource.DecreaseResource(ConsumableResourceCost))
+                shield.PerformShield("SpecialAttack2");
 
         }
+    }
 
+    private void TeleportOnClick()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            teleport.PerformSimpleTeleport(out position2Spawn);
+        }
+    }
 
+    private void Move()
+    {
+        if (canMove)
+        {
+            movement.PerformMove(Speed, SetInput());
+        }
+    }
 
+    private void Attack()
+    {
         if (Input.GetKey(KeyCode.Space))
         {
             testTimerCHarge -= Time.deltaTime;
@@ -60,16 +84,6 @@ public class PlayerController : MonoBehaviour
                 attackScript.PerformNormalAttack("NormalAttack");
                 testTimerCHarge = .7f;
             }
-        }
-
-        if (canMove)
-        {
-            movement.PerformMove(Speed, SetInput().x);
-        }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            teleport.PerformTeleport(out position2Spawn);
         }
     }
 
@@ -105,7 +119,7 @@ public class PlayerController : MonoBehaviour
 
     public void DisableMovement()
     {
-        movement.PerformMove(0, SetInput().x);
+        movement.PerformMove(0, SetInput());
         canMove = false;
     }
 

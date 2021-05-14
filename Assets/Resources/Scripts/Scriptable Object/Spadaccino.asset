@@ -15,8 +15,9 @@ MonoBehaviour:
   Name: 
   MaxHp: {fileID: 0}
   Hp: 0
+  IsDead: 0
   BaseHP: {fileID: 0}
   constitution: 0
   SpecialStats: {fileID: 0}
   PlayerStatistics: []
-  consumableResource: {fileID: 0}
+  consumableResource: {fileID: 11400000, guid: 896c8fec12c8dd64e9357452cf70ffc6, type: 2}
