@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   PauseMode: 0
+  attackToPerform: {fileID: 11400000, guid: bf15dabc6d1af9240928b8a58aa21a1d, type: 2}

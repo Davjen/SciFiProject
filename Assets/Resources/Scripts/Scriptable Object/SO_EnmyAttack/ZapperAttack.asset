@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c75993654b990b448159b6d8d08a084, type: 3}
   m_Name: ZapperAttack
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 10
   chance: 0
   player: {fileID: 0}
