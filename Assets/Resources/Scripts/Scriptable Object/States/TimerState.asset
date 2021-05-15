@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   PauseMode: 0
-  MinTime: 0
-  MaxTime: 0
+  MinTime: 1.5
+  MaxTime: 4
