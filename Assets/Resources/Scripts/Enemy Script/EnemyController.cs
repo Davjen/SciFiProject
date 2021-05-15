@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class EnemyController : MonoBehaviour
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
         mat = GetComponent<SpriteRenderer>().material;
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         //AwakeAnim();
     }
 
