@@ -118,7 +118,7 @@ public class Teleport : Component
 
     public bool SimpleTeleportCollisionCheck(Vector2 mousePosition, out Vector2 SpawnPoint)
     {
-        SpawnPoint = Physics2D.OverlapCircle(mousePosition,charDimension.x*.5f,TeleportableGround) ? mousePosition:Vector2.zero;
+        SpawnPoint = Physics2D.OverlapCircle(mousePosition,0.001f,TeleportableGround) ? mousePosition:Vector2.zero;
         return SpawnPoint != Vector2.zero;
     }
 

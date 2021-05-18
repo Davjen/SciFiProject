@@ -6,8 +6,8 @@ using UnityEngine.AI;
 [CreateAssetMenu(fileName = "PatrolState", menuName = "IA/PatrolState")]
 public class PatrolState : State
 {
-    public float RandomMaxDist = 5;
     public float RandomMinDist = 2;
+    public float RandomMaxDist = 5;
 
     
 
@@ -51,7 +51,8 @@ public class PatrolState : State
         base.OnEnterState(owner);
         spriteRenderer = Owner.GetComponent<SpriteRenderer>();
         collider = Owner.GetComponent<Collider2D>();
-        agent = Owner.GetComponent<NavMeshAgent>();
+        agent = Owner.agent;
+        agent.isStopped = false;
 
         float randomRange = Random.Range(RandomMinDist, RandomMaxDist);
         Vector3 randomPosition = Random.insideUnitCircle * randomRange;

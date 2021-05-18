@@ -8,9 +8,10 @@ public class EnemyController : MonoBehaviour
     public Enemy_SO enemyStats;
     public GameObject weapon;
 
+    [HideInInspector] public Movement moveScr;
+    [HideInInspector] public NavMeshAgent agent;
     Animator animator;
     Material mat;
-    [HideInInspector] public Movement moveScr;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class EnemyController : MonoBehaviour
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
         mat = GetComponent<SpriteRenderer>().material;
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         //AwakeAnim();

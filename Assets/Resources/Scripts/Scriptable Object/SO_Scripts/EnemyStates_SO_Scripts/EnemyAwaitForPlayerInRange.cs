@@ -11,7 +11,8 @@ public class EnemyAwaitForPlayerInRange : State
     [Header("triggers")]
     public Transition OnPlayerInRange;
 
-    private float Range;
+    private float EnterRange;
+    private float ExitRange;
     public override void OnExitState()
     {
         return;
@@ -21,13 +22,13 @@ public class EnemyAwaitForPlayerInRange : State
     {
         if (checkIfEnterOnRadius)
         {
-            if (Vector3.Distance(player.transform.position, Owner.transform.position) <= Range)
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) <= EnterRange)
             {
                 AnimatorSetParam(OnPlayerInRange);
             }
         }else
         {
-            if (Vector3.Distance(player.transform.position, Owner.transform.position) >= Range)
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) >= ExitRange)
             {
                 AnimatorSetParam(OnPlayerInRange);
             }
@@ -43,13 +44,16 @@ public class EnemyAwaitForPlayerInRange : State
         switch (rangeToCheck)
         {
             case RangeToCheck.Chase:
-                Range = Owner.enemyStats.DistForEnterChase;
+                EnterRange = Owner.enemyStats.DistForEnterChase;
+                ExitRange = Owner.enemyStats.DistForExitChase;
                 break;
             case RangeToCheck.Attack:
-                Range = Owner.enemyStats.DistForEnterAttack;
+                EnterRange = Owner.enemyStats.DistForEnterAttack;
+                ExitRange = Owner.enemyStats.DistForExitAttack;
                 break;
             case RangeToCheck.Wake:
-                Range = Owner.enemyStats.WakeDistance;
+                EnterRange = Owner.enemyStats.AwakeDistance;
+                ExitRange = Owner.enemyStats.SleepDistance;
                 break;
         }
     }

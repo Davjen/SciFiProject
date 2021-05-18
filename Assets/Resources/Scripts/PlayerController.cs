@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        player.consumableResource.IncreaseResource(100);
+        //player.consumableResource.IncreaseResource(100);
         //eventuale guadagno di fury per il supercolpo?
     }
 

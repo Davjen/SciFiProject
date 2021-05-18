@@ -19,8 +19,11 @@ public class Enemy_SO : ScriptableObject
     [Header("IA_PATROL")]
     public float PatrolMaxDist = 4;
     public float DistForEnterChase;
+    public float DistForExitChase;
     public float DistForEnterAttack;
-    public float WakeDistance;
+    public float DistForExitAttack;
+    public float AwakeDistance;
+    public float SleepDistance;
     [Range(0, 100)]
     public float chanceToStartPatrol = 50f; //probabilità di iniziare subito il patrol senza aspettare che il player si avvicini  
 
