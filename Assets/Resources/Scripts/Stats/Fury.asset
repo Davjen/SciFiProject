@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7953d6d019f4f1b49bc34220ac803a20, type: 3}
   m_Name: Fury
   m_EditorClassIdentifier: 
-  Value: 100
+  Value: 0
   MaxValue: 100
   ResourceName: 
   owner: {fileID: 0}

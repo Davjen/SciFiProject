@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReflectiveShield : MonoBehaviour
+public class ReflectiveShield : Component
 {
 
     //TO DO -->SPOSTARE TUTTO SU SCRIPTABLE OBJECT

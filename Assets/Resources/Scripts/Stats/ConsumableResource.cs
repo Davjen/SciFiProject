@@ -19,6 +19,7 @@ public abstract class ConsumableResource : ScriptableObject
     /// <returns></returns>
     public bool DecreaseResource(float amount)
     {
+        Debug.Log(amount);
         Value -= amount;
         if (Value < 0)
         {

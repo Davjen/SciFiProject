@@ -5,29 +5,30 @@ using UnityEngine;
 public class AttackScript : MonoBehaviour
 {
     Animator anim;
-    string notInterruptableSkill = "SpecialAttack";
+    public string notInterruptableSkill = "SpecialAttack";
+
     
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    
+    private void Update()
+    {
+        
+    }
+    public void SetLogic()
+    {
+
+    }
+
+
     public void PerformNormalAttack(string AttackType)
     {
         if (!CheckIfAlreadyPlaying(AttackType))
             anim.SetTrigger(AttackType);
     }
 
-    public void PerformSpecialAttack()
-    {
-
-    }
-
-    public void PerformDefensiveAttack()
-    {
-
-    }
     /// <summary>
     /// Check if is already playing the same animation or not interruptable skill.
     /// </summary>

@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
     public Teleport teleport;
     public ReflectiveShield shield;
 
+
+    //TO DO-> TUTTI FIGLI DI CLASSE ASTRATTA CON ABSTRACT UPDATE.
+
+
     [Space]
     public float Speed;
     public float ConsumableResourceCost;
@@ -19,13 +23,13 @@ public class PlayerController : MonoBehaviour
 
     Vector2 position2Spawn;
 
-    //DA RIMUOVERE
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -39,11 +43,10 @@ public class PlayerController : MonoBehaviour
 
     private void SpecialAttack()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (player.consumableResource.DecreaseResource(ConsumableResourceCost))
                 shield.PerformShield("SpecialAttack2");
-
         }
     }
 
@@ -68,17 +71,17 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             testTimerCHarge -= Time.deltaTime;
-            Debug.Log("ciao");
+           
             if (testTimerCHarge <= 0)
             {
                 attackScript.PerformNormalAttack("SpecialAttack");
-                Debug.Log("entro");
+                
                 testTimerCHarge = .7f;
             }
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
-            Debug.Log("entroupo");
+            
             if (testTimerCHarge <= .6f)
             {
                 attackScript.PerformNormalAttack("NormalAttack");
