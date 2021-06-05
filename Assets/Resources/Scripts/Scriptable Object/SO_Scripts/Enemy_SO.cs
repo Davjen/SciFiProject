@@ -25,6 +25,7 @@ public class Enemy_SO : ScriptableObject
     public float AwakeDistance;
     public float SleepDistance;
     [Range(0, 100)]
+    //non implementato
     public float chanceToStartPatrol = 50f; //probabilità di iniziare subito il patrol senza aspettare che il player si avvicini  
 
 
