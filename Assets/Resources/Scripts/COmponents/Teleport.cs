@@ -12,12 +12,32 @@ public class Teleport : Component
     float BoxCheckSideDistance;
     Animator anim;
     Vector2 lastTeleportPosition;
+    
+    
+    int teleportArea;
+
+    public int CreateMask(string maskName)
+    {
+        return 1 << NavMesh.GetAreaFromName(maskName);
+    }
+
+    public void AddMask(string maskName)
+    {
+        teleportArea ^= CreateMask(maskName);
+    }
 
     void Start()
     {
         charDimension = GetComponent<CircleCollider2D>().bounds.size;
         anim = GetComponent<Animator>();
         BoxCheckSideDistance = charDimension.x * 0.25f;
+        
+        int WalkMask = 1 << NavMesh.GetAreaFromName("Walkable");
+        int NotWalkMask = 1 << NavMesh.GetAreaFromName("NotTeleport");
+        teleportArea = WalkMask | NotWalkMask;
+        teleportArea ^= NotWalkMask;
+
+        Debug.Log(teleportArea);
     }
 
     bool CheckIfAlreadyPlaying()
@@ -132,7 +152,7 @@ public class Teleport : Component
         //SpawnPoint = !Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.2f, Obstacle) ? mousePosition : Vector2.zero;
 
         NavMeshHit hit;
-        NavMesh.SamplePosition(mousePosition, out hit, 0.1f, 1 << NavMesh.GetAreaFromName("Walkable"));
+        NavMesh.SamplePosition(mousePosition, out hit, 0.1f, teleportArea);
         SpawnPoint = hit.position;
         return !float.IsInfinity(SpawnPoint.x);
     }
