@@ -27,7 +27,9 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-
+        float dir = transform.position.x - agent.steeringTarget.x;
+        Debug.Log(-dir);
+        moveScr.FlipSprite(-dir);
     }
     public Vector2 SetInput()
     {

@@ -62,6 +62,7 @@ public class PatrolState : State
         NavMesh.SamplePosition(randomPosition, out hit, 5, NavMesh.AllAreas);
         targetPoint = hit.position;
         agent.SetDestination(targetPoint);
+
     }
 
 
@@ -74,6 +75,7 @@ public class PatrolState : State
         {
             anim.SetTrigger("Reached Patrol Position");
         }
+
 
         #region codice platform
 
