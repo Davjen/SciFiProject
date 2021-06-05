@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Teleport : Component
 {
@@ -10,6 +11,7 @@ public class Teleport : Component
     float TPDownCheckDistance = 4;
     float BoxCheckSideDistance;
     Animator anim;
+    Vector2 lastTeleportPosition;
 
     void Start()
     {
@@ -41,9 +43,15 @@ public class Teleport : Component
     public void PerformSimpleTeleport(out Vector2 position2Spawn)
     {
         position2Spawn = Vector2.zero;
-        if(SimpleTeleportCollisionCheck(MousePositionConverter(),out position2Spawn))
+        if (SimpleTeleportCollisionCheck(MousePositionConverter(), out position2Spawn))
+        {
+            lastTeleportPosition = position2Spawn;
             if (!CheckIfAlreadyPlaying())
                 anim.SetTrigger("Teleport");
+        }
+        else 
+            position2Spawn = lastTeleportPosition;
+
     }
     /// <summary>
     /// Teleport Check Collision
@@ -121,11 +129,12 @@ public class Teleport : Component
     {
         //SpawnPoint = Physics2D.OverlapCircle(mousePosition,charDimension.x*0.5f,TeleportableGround) ? mousePosition:Vector2.zero;
 
-        SpawnPoint = !Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.2f, Obstacle) ? mousePosition : Vector2.zero;
+        //SpawnPoint = !Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.2f, Obstacle) ? mousePosition : Vector2.zero;
 
-
-        Debug.Log(SpawnPoint);
-        return SpawnPoint != Vector2.zero;
+        NavMeshHit hit;
+        NavMesh.SamplePosition(mousePosition, out hit, 0.1f, 1 << NavMesh.GetAreaFromName("Walkable"));
+        SpawnPoint = hit.position;
+        return !float.IsInfinity(SpawnPoint.x);
     }
 
     public Vector2 MousePositionConverter()
