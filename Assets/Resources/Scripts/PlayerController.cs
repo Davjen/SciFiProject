@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public float ConsumableResourceCost;
     public PlayerStats player;
-    public float testTimerCHarge = 0.7f;
+    public float testTimerCHarge = 0.7f; 
     bool canMove = true;
 
     Vector2 position2Spawn;
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player.SetInitialConsumable(100);
     }
 
     // Update is called once per frame

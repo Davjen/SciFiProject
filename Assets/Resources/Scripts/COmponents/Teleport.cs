@@ -5,6 +5,7 @@ using UnityEngine;
 public class Teleport : Component
 {
     public LayerMask TeleportableGround;
+    public LayerMask Obstacle;
     Vector2 charDimension;
     float TPDownCheckDistance = 4;
     float BoxCheckSideDistance;
@@ -118,7 +119,12 @@ public class Teleport : Component
 
     public bool SimpleTeleportCollisionCheck(Vector2 mousePosition, out Vector2 SpawnPoint)
     {
-        SpawnPoint = Physics2D.OverlapCircle(mousePosition,0.001f,TeleportableGround) ? mousePosition:Vector2.zero;
+        //SpawnPoint = Physics2D.OverlapCircle(mousePosition,charDimension.x*0.5f,TeleportableGround) ? mousePosition:Vector2.zero;
+
+        SpawnPoint = Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.5f, Obstacle) ? mousePosition : Vector2.zero;
+
+
+        Debug.Log(SpawnPoint);
         return SpawnPoint != Vector2.zero;
     }
 
