@@ -335,7 +335,7 @@ namespace TwitchChatConnect.Client
             _writer.Flush();
         }
 
-        private bool IsConnected()
+        public bool IsConnected()
         {
             return _twitchClient != null && _twitchClient.Connected;
         }
