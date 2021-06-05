@@ -121,7 +121,7 @@ public class Teleport : Component
     {
         //SpawnPoint = Physics2D.OverlapCircle(mousePosition,charDimension.x*0.5f,TeleportableGround) ? mousePosition:Vector2.zero;
 
-        SpawnPoint = Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.5f, Obstacle) ? mousePosition : Vector2.zero;
+        SpawnPoint = !Physics2D.OverlapCircle(mousePosition, charDimension.x * 0.2f, Obstacle) ? mousePosition : Vector2.zero;
 
 
         Debug.Log(SpawnPoint);
