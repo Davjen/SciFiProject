@@ -72,5 +72,9 @@ public class PlayerStats : ScriptableObject
         Hp = MaxHp.Value;
     }
 
+    public void SetInitialConsumable(float amount)
+    {
+        consumableResource.SetValue(amount);
+    }
 
 }
