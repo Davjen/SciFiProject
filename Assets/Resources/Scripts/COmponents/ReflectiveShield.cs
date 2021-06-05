@@ -41,13 +41,10 @@ public class ReflectiveShield : Component
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        
         //consuma la risorsa
         //collision.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("aTTACKmoDE");
         //I proiettili avranno interfaccia
-        if (collision.tag == "Bullet")
-        {  
-            Destroy(collision.gameObject);
-        }
+
     }
 }

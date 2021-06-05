@@ -6,6 +6,7 @@ public class AttackScript : MonoBehaviour
 {
     Animator anim;
     public string notInterruptableSkill = "SpecialAttack";
+    public float ConsumableResourceIncrease=5;
     PlayerController owner;
 
     string performingAttackName;
@@ -52,7 +53,7 @@ public class AttackScript : MonoBehaviour
         if (collision.CompareTag("Enemy") && CheckIfAlreadyPlaying(performingAttackName))
         {
             Debug.Log("colpito");
-            owner.player.consumableResource.IncreaseResource(5);
+            owner.player.consumableResource.IncreaseResource(ConsumableResourceIncrease);
         }
     }
 
