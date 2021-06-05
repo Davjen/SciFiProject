@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7953d6d019f4f1b49bc34220ac803a20, type: 3}
-  m_Name: Fury
+  m_Script: {fileID: 11500000, guid: 790629b666526d74985eb481853eb91d, type: 3}
+  m_Name: MaxHp
   m_EditorClassIdentifier: 
-  Value: 0
-  MaxValue: 100
-  ResourceName: 
-  SpecialEffectActivated: 1
-  owner: {fileID: 11400000, guid: 0ddb65e8f3c1e87438c181beb532e01d, type: 2}
+  Name: 0
+  Value: 100
+  onStatsIncrease: {fileID: 0}

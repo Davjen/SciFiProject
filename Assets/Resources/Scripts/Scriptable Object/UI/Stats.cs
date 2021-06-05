@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum StatsName
+{
+    MaxHp,Strenght,Toughness,CritChance,Intelligence,Experience
+}
 [CreateAssetMenu(fileName ="Stats",menuName ="Stats/GeneralStats")]
+
 public class Stats : ScriptableObject
 {
-    public string Name;
+    public StatsName Name;
     public float Value;
 
-    //In questo modo 
+//per UI Refresh
     public GameEvent onStatsIncrease;
-
-    public virtual void Logic() {}
 
     public void ModifyStat(float value)
     {

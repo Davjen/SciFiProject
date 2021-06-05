@@ -6,11 +6,14 @@ public class AttackScript : MonoBehaviour
 {
     Animator anim;
     public string notInterruptableSkill = "SpecialAttack";
+    PlayerController owner;
 
+    string performingAttackName;
     
     void Start()
     {
         anim = GetComponent<Animator>();
+        owner = GetComponent<PlayerController>();
     }
 
     private void Update()
@@ -23,10 +26,13 @@ public class AttackScript : MonoBehaviour
     }
 
 
-    public void PerformNormalAttack(string AttackType)
+    public void PerformAttack(string AttackType)
     {
         if (!CheckIfAlreadyPlaying(AttackType))
+        {
+            performingAttackName = AttackType;
             anim.SetTrigger(AttackType);
+        }
     }
 
     /// <summary>
@@ -40,6 +46,15 @@ public class AttackScript : MonoBehaviour
         return info.IsName(AttackType) || info.IsName(notInterruptableSkill);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("Enemy") && CheckIfAlreadyPlaying(performingAttackName))
+        {
+            Debug.Log("colpito");
+            owner.player.consumableResource.IncreaseResource(5);
+        }
+    }
 
 
 

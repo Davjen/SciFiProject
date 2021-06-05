@@ -8,6 +8,8 @@ public abstract class ConsumableResource : ScriptableObject
     public float MaxValue;
     public string ResourceName;
 
+    public bool SpecialEffectActivated;
+
     public void SetValue(float amount)
     {
         Value = Mathf.Clamp(amount, 0, 100);
@@ -21,6 +23,7 @@ public abstract class ConsumableResource : ScriptableObject
     {
         
         Value -= amount;
+        SpecialEffectActivated = false;
         if (Value < 0)
         {
             Value += amount;
@@ -34,17 +37,21 @@ public abstract class ConsumableResource : ScriptableObject
         Value += amount;
         if(Value >= MaxValue)
         {
-            Value = MaxValue;
+            Value = MaxValue; 
             ActivateSpecialEffect();
         }
     }
 
     public abstract void ActivateSpecialEffect();
+    public abstract void DeactivateSpecialEffect();
 
     public bool DropResource()
     {
         if (Value >= 0)
+        {
             Value = 0;
+            SpecialEffectActivated = false;
+        }
         return Value == 0;
     }
 }

@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Spadaccino
   m_EditorClassIdentifier: 
   Name: 
-  MaxHp: {fileID: 0}
-  Hp: 0
+  Hp: 100
   IsDead: 0
-  BaseHP: {fileID: 0}
-  constitution: 0
   SpecialStats: {fileID: 0}
-  PlayerStatistics: []
+  PlayerStatistics:
+  - {fileID: 11400000, guid: 79676ef371d009940818f396d1692382, type: 2}
   consumableResource: {fileID: 11400000, guid: 896c8fec12c8dd64e9357452cf70ffc6, type: 2}

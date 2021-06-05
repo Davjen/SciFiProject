@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     [Header("COMPONENTS")]
@@ -29,7 +30,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.SetInitialConsumable(100);
+        player.ResetHP();
+        player.SetInitialConsumable(0);
     }
 
     // Update is called once per frame
@@ -74,7 +76,7 @@ public class PlayerController : MonoBehaviour
            
             if (testTimerCHarge <= 0)
             {
-                attackScript.PerformNormalAttack("SpecialAttack");
+                attackScript.PerformAttack("SpecialAttack");
                 
                 testTimerCHarge = .7f;
             }
@@ -84,17 +86,13 @@ public class PlayerController : MonoBehaviour
             
             if (testTimerCHarge <= .6f)
             {
-                attackScript.PerformNormalAttack("NormalAttack");
+                attackScript.PerformAttack("NormalAttack");
                 testTimerCHarge = .7f;
             }
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        //player.consumableResource.IncreaseResource(100);
-        //eventuale guadagno di fury per il supercolpo?
-    }
+
 
     public void Teleport()
     {
