@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790629b666526d74985eb481853eb91d, type: 3}
   m_Name: Strenght
   m_EditorClassIdentifier: 
-  Name: 0
-  Value: 0
+  Name: 1
+  Value: 100
   onStatsIncrease: {fileID: 0}

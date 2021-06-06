@@ -17,24 +17,7 @@ public class PlayerStats : ScriptableObject
 
     public Dictionary<StatsName, Stats> Stats = new Dictionary<StatsName, Stats>();
 
-    //public float Constitution
-    //{
-    //    get => constitution;
-    //    set
-    //    {
-    //        constitution += value;
-    //        SetHP();
 
-    //    }
-    //}
-
-    public float Luck
-    {
-        set
-        {
-
-        }
-    }
     //public  Constitution; //MAX HP
     //public int Toughness; //damage reduction
     //public int ConsumableResource; //TO DO-> RENDERLO SCRIPTABLE OBJECT CON LA LOGICA INTRINSECA DI COME SI GUADAGNA (POTREBBE VARIARE IN BASE AL PERSONAGGIO)

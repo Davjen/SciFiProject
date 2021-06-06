@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
 
     Vector2 position2Spawn;
 
-    
 
 
 

@@ -15,5 +15,7 @@ MonoBehaviour:
   Value: 0
   MaxValue: 100
   ResourceName: 
-  SpecialEffectActivated: 1
+  SpecialEffectActivated: 0
+  StatsToIncrease: {fileID: 11400000, guid: a5b624ef09e095a4e91defe016a64cc4, type: 2}
+  StatsToDecrease: {fileID: 11400000, guid: 5750dba3350e2bb45a2e16ba94d2c755, type: 2}
   owner: {fileID: 11400000, guid: 0ddb65e8f3c1e87438c181beb532e01d, type: 2}
