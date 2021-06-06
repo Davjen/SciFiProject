@@ -13,8 +13,8 @@ public class AttackScript : MonoBehaviour
     
     void Start()
     {
-        anim = GetComponent<Animator>();
-        owner = GetComponent<PlayerController>();
+        owner = GetComponentInParent<PlayerController>();
+        anim = GetComponentInParent<Animator>();
     }
 
     private void Update()
@@ -53,6 +53,7 @@ public class AttackScript : MonoBehaviour
         if (collision.CompareTag("Enemy") && CheckIfAlreadyPlaying(performingAttackName))
         {
             Debug.Log("colpito");
+            Debug.Log(owner.Player);
             owner.Player.consumableResource.IncreaseResource(ConsumableResourceIncrease);
         }
     }

@@ -15,22 +15,17 @@ public class ReflectiveShield : Component
     // Start is called before the first frame update
     void Start()
     {
-        owner = GetComponent<PlayerController>();
-        anim = GetComponent<Animator>();
+        owner = GetComponentInParent<PlayerController>();
+        anim = GetComponentInParent<Animator>();
+        
     }
-
-    // Update is called once per frame
-
 
     public void PerformShield(string skillName)
     {
 
-        //Sulla base del tipo di attacco può essere completamente protettiva o parzialmente.
         if (!CheckIfAlreadyPlaying())
         {
-            //if(enough consumable resource)
             anim.SetTrigger(skillName);
-            //TO DO->CONSUME CONSUMABLE RESOURCE
         }
 
     }
