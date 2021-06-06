@@ -18,20 +18,24 @@ public class PlayerController : MonoBehaviour
     [Space]
     public float Speed;
     public float ConsumableResourceCost;
-    public PlayerStats player;
+    public PlayerStats Player;
     public float testTimerCHarge = 0.7f; 
     bool canMove = true;
 
+
+    public ConsumableResource PlayerResource { get => Player.consumableResource;}
+
     Vector2 position2Spawn;
 
+    
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        player.ResetHP();
-        player.SetInitialConsumable(0);
+        Player.ResetHP();
+        Player.SetInitialConsumable(0);
     }
 
     // Update is called once per frame
@@ -47,7 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            if (player.consumableResource.DecreaseResource(ConsumableResourceCost))
+            if (Player.consumableResource.DecreaseResource(ConsumableResourceCost))
                 shield.PerformShield("SpecialAttack2");
         }
     }
@@ -92,7 +96,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+    }
 
     public void Teleport()
     {
@@ -109,13 +115,13 @@ public class PlayerController : MonoBehaviour
     public void SwitchPlayer(PlayerStats player2Switch)
     {
         //-->chiamare animazione scomparsa sul vecchio
-        player = player2Switch;
+        Player = player2Switch;
         //chiamare animazione comparsa sul nuovo
     }
 
     float CheckHpStatus()
     {
-        return player.Hp;
+        return Player.Hp;
     }
 
     public void DisableMovement()
@@ -131,17 +137,17 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (player.IsDead) return;
+        if (Player.IsDead) return;
 
-        if (player.Hp <= damage)
+        if (Player.Hp <= damage)
         {
             //player morto
-            player.IsDead = true;
+            Player.IsDead = true;
 
         }
         else
         {
-            player.Hp -= damage;
+            Player.Hp -= damage;
         }
     }
 }

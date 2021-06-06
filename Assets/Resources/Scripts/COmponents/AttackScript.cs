@@ -53,7 +53,7 @@ public class AttackScript : MonoBehaviour
         if (collision.CompareTag("Enemy") && CheckIfAlreadyPlaying(performingAttackName))
         {
             Debug.Log("colpito");
-            owner.player.consumableResource.IncreaseResource(ConsumableResourceIncrease);
+            owner.Player.consumableResource.IncreaseResource(ConsumableResourceIncrease);
         }
     }
 

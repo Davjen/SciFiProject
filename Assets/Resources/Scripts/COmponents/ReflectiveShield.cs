@@ -8,13 +8,14 @@ public class ReflectiveShield : Component
     //TO DO -->SPOSTARE TUTTO SU SCRIPTABLE OBJECT
     Animator anim;
     public string AnimationName;
+    public int ConsumableResourceCost;
 
-    public PlayerStats player;
-    
-
+ 
+    PlayerController owner;
     // Start is called before the first frame update
     void Start()
     {
+        owner = GetComponent<PlayerController>();
         anim = GetComponent<Animator>();
     }
 
@@ -41,10 +42,13 @@ public class ReflectiveShield : Component
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        //consuma la risorsa
-        //collision.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("aTTACKmoDE");
-        //I proiettili avranno interfaccia
 
+        IreflectDamage bulletToReflect = collision.GetComponent<IreflectDamage>();
+
+        if (bulletToReflect !=null && CheckIfAlreadyPlaying() && owner.PlayerResource.Value>= ConsumableResourceCost)
+        {
+            owner.PlayerResource.DecreaseResource(ConsumableResourceCost);
+            bulletToReflect.ReflectDamage();          
+        }
     }
 }

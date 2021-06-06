@@ -23,7 +23,7 @@ public abstract class ConsumableResource : ScriptableObject
     {
         
         Value -= amount;
-        SpecialEffectActivated = false;
+        DeactivateSpecialEffect();
         if (Value < 0)
         {
             Value += amount;
@@ -50,7 +50,7 @@ public abstract class ConsumableResource : ScriptableObject
         if (Value >= 0)
         {
             Value = 0;
-            SpecialEffectActivated = false;
+            DeactivateSpecialEffect();
         }
         return Value == 0;
     }

@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Fury", menuName = "ConsumableResources/Fury")]
 public class Fury : ConsumableResource
 {
-    //public Stats StatsToIncrease;
-    //public Stats StatsToDecrease;
+    public Stats StatsToIncrease;
+    public Stats StatsToDecrease;
 
     public PlayerStats owner;
 
@@ -17,7 +17,9 @@ public class Fury : ConsumableResource
         {
 
             SpecialEffectActivated = true;
-            Debug.Log("Sto incrementando la statistica(DA IMPLEMENTARE)");
+            owner.ModifyStat(StatsToIncrease.Name,100);
+            owner.ModifyStat(StatsToDecrease.Name,-100);
+            Debug.Log("incremento le statistiche");
         }
         //owner.ModifyStat(StatsToIncrease, 100);
         //owner.ModifyStat(StatsToDecrease, -100);
@@ -26,7 +28,12 @@ public class Fury : ConsumableResource
     public override void DeactivateSpecialEffect()
     {
         if (SpecialEffectActivated)
+        {
+            owner.ModifyStat(StatsToIncrease.Name, -100);
+            owner.ModifyStat(StatsToDecrease.Name, +100);
+            SpecialEffectActivated = false;
             Debug.Log("decremento le statistiche al valore iniziale");
+        }
     }
 
 }

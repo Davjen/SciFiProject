@@ -19,7 +19,7 @@ public class Stats : ScriptableObject
     public void ModifyStat(float value)
     {
         Value += value;
-        onStatsIncrease.Raise();
+        //onStatsIncrease.Raise();
     }
 }
 
