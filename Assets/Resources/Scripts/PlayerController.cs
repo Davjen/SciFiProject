@@ -98,6 +98,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //SE DEVO INSERIRE QUALCHE LOGICA PARTICOLARE QUI DENTRO E NON VOGLIO CHE VENGA TRIGGHERATO DAGLI ATTACCHI CHE ESEGUO DEVO METTERE UN RB ALL'OGGETTO RAY
     }
 
     public void Teleport()
