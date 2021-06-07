@@ -1,0 +1,2589 @@
+fileFormatVersion: 2
+guid: 3b57cc35c14bf604cbc739221cf3c5a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3072164053192598692
+    second: Sci-fi Tileset re-imagined_0
+  - first:
+      213: -8360929602917456238
+    second: Sci-fi Tileset re-imagined_1
+  - first:
+      213: 7706864762406613191
+    second: Sci-fi Tileset re-imagined_2
+  - first:
+      213: -7515644749781770979
+    second: Sci-fi Tileset re-imagined_3
+  - first:
+      213: 7289179833389468779
+    second: Sci-fi Tileset re-imagined_4
+  - first:
+      213: -5660731818962354196
+    second: Sci-fi Tileset re-imagined_5
+  - first:
+      213: -826219492940283643
+    second: Sci-fi Tileset re-imagined_6
+  - first:
+      213: 2751663855381294759
+    second: Sci-fi Tileset re-imagined_7
+  - first:
+      213: -5045465327163970309
+    second: Sci-fi Tileset re-imagined_8
+  - first:
+      213: 461083298762947542
+    second: Sci-fi Tileset re-imagined_9
+  - first:
+      213: -5151734368067822874
+    second: Sci-fi Tileset re-imagined_10
+  - first:
+      213: -5032897274578211515
+    second: Sci-fi Tileset re-imagined_11
+  - first:
+      213: -7908047007563811628
+    second: Sci-fi Tileset re-imagined_12
+  - first:
+      213: 1715979741363452576
+    second: Sci-fi Tileset re-imagined_13
+  - first:
+      213: -4750464293681773765
+    second: Sci-fi Tileset re-imagined_14
+  - first:
+      213: -5457308888751282942
+    second: Sci-fi Tileset re-imagined_15
+  - first:
+      213: -1464630640835315382
+    second: Sci-fi Tileset re-imagined_16
+  - first:
+      213: 359411734039929868
+    second: Sci-fi Tileset re-imagined_17
+  - first:
+      213: 3215297074146032244
+    second: Sci-fi Tileset re-imagined_18
+  - first:
+      213: -625402642366605224
+    second: Sci-fi Tileset re-imagined_19
+  - first:
+      213: 5158920420284208004
+    second: Sci-fi Tileset re-imagined_20
+  - first:
+      213: 3381056459145183917
+    second: Sci-fi Tileset re-imagined_21
+  - first:
+      213: -925613317139448897
+    second: Sci-fi Tileset re-imagined_22
+  - first:
+      213: -953582234435552186
+    second: Sci-fi Tileset re-imagined_23
+  - first:
+      213: -4665340950557819878
+    second: Sci-fi Tileset re-imagined_24
+  - first:
+      213: 6322817769830361453
+    second: Sci-fi Tileset re-imagined_25
+  - first:
+      213: -3707645741576993561
+    second: Sci-fi Tileset re-imagined_26
+  - first:
+      213: 16462760255091660
+    second: Sci-fi Tileset re-imagined_27
+  - first:
+      213: -3134902156734845542
+    second: Sci-fi Tileset re-imagined_28
+  - first:
+      213: -1520266041397448294
+    second: Sci-fi Tileset re-imagined_29
+  - first:
+      213: -7821242574950495798
+    second: Sci-fi Tileset re-imagined_30
+  - first:
+      213: 7986582771339254239
+    second: Sci-fi Tileset re-imagined_31
+  - first:
+      213: -3268898889939957620
+    second: Sci-fi Tileset re-imagined_32
+  - first:
+      213: 3941437098552277192
+    second: Sci-fi Tileset re-imagined_33
+  - first:
+      213: 369993656046800967
+    second: Sci-fi Tileset re-imagined_34
+  - first:
+      213: -2748216593142312371
+    second: Sci-fi Tileset re-imagined_35
+  - first:
+      213: -3070834268624649166
+    second: Sci-fi Tileset re-imagined_36
+  - first:
+      213: -5175611896073106851
+    second: Sci-fi Tileset re-imagined_37
+  - first:
+      213: 5269294100305328149
+    second: Sci-fi Tileset re-imagined_38
+  - first:
+      213: -2718358535073414161
+    second: Sci-fi Tileset re-imagined_39
+  - first:
+      213: 5481972105332545008
+    second: Sci-fi Tileset re-imagined_40
+  - first:
+      213: -8389226618622170908
+    second: Sci-fi Tileset re-imagined_41
+  - first:
+      213: -8146329608230136108
+    second: Sci-fi Tileset re-imagined_42
+  - first:
+      213: 8120101124499825798
+    second: Sci-fi Tileset re-imagined_43
+  - first:
+      213: 2619770494723499599
+    second: Sci-fi Tileset re-imagined_44
+  - first:
+      213: -112496773955977653
+    second: Sci-fi Tileset re-imagined_45
+  - first:
+      213: 1126010923624597331
+    second: Sci-fi Tileset re-imagined_46
+  - first:
+      213: -7897112198376684139
+    second: Sci-fi Tileset re-imagined_47
+  - first:
+      213: 6979391887557740982
+    second: Sci-fi Tileset re-imagined_48
+  - first:
+      213: -1277426820090900812
+    second: Sci-fi Tileset re-imagined_49
+  - first:
+      213: -4504943557413549879
+    second: Sci-fi Tileset re-imagined_50
+  - first:
+      213: -8245337912834118336
+    second: Sci-fi Tileset re-imagined_51
+  - first:
+      213: 7312336167423814108
+    second: Sci-fi Tileset re-imagined_52
+  - first:
+      213: 2647050869521412898
+    second: Sci-fi Tileset re-imagined_53
+  - first:
+      213: -1892119867550515450
+    second: Sci-fi Tileset re-imagined_54
+  - first:
+      213: -995656974495902015
+    second: Sci-fi Tileset re-imagined_55
+  - first:
+      213: 8141037893195924609
+    second: Sci-fi Tileset re-imagined_56
+  - first:
+      213: 6875808174991591168
+    second: Sci-fi Tileset re-imagined_57
+  - first:
+      213: 170500954864742635
+    second: Sci-fi Tileset re-imagined_58
+  - first:
+      213: -5747179334866896097
+    second: Sci-fi Tileset re-imagined_59
+  - first:
+      213: 610608876398066220
+    second: Sci-fi Tileset re-imagined_60
+  - first:
+      213: 2126009630335547254
+    second: Sci-fi Tileset re-imagined_61
+  - first:
+      213: -7569439038695816076
+    second: Sci-fi Tileset re-imagined_62
+  - first:
+      213: 3187584710754003748
+    second: Sci-fi Tileset re-imagined_63
+  - first:
+      213: 740980026123225510
+    second: Sci-fi Tileset re-imagined_64
+  - first:
+      213: -8916037763998106107
+    second: Sci-fi Tileset re-imagined_65
+  - first:
+      213: 7777248662407559764
+    second: Sci-fi Tileset re-imagined_66
+  - first:
+      213: 6223811082422555796
+    second: Sci-fi Tileset re-imagined_67
+  - first:
+      213: 7469690399417856923
+    second: Sci-fi Tileset re-imagined_68
+  - first:
+      213: 2004337903751463228
+    second: Sci-fi Tileset re-imagined_69
+  - first:
+      213: 6576155592411258290
+    second: Sci-fi Tileset re-imagined_70
+  - first:
+      213: 7329800185182113560
+    second: Sci-fi Tileset re-imagined_71
+  - first:
+      213: 8733923179708016833
+    second: Sci-fi Tileset re-imagined_72
+  - first:
+      213: 6163278968900449263
+    second: Sci-fi Tileset re-imagined_73
+  - first:
+      213: 3298349067178237422
+    second: Sci-fi Tileset re-imagined_74
+  - first:
+      213: -8230267196052554703
+    second: Sci-fi Tileset re-imagined_75
+  - first:
+      213: -7013804699298982268
+    second: Sci-fi Tileset re-imagined_76
+  - first:
+      213: -2514933252711652545
+    second: Sci-fi Tileset re-imagined_77
+  - first:
+      213: 3820588805252546946
+    second: Sci-fi Tileset re-imagined_78
+  - first:
+      213: -1533160804149898640
+    second: Sci-fi Tileset re-imagined_79
+  - first:
+      213: 6947861097804690964
+    second: Sci-fi Tileset re-imagined_80
+  - first:
+      213: -7925993078667751671
+    second: Sci-fi Tileset re-imagined_81
+  - first:
+      213: -1513540881106693059
+    second: Sci-fi Tileset re-imagined_82
+  - first:
+      213: -2937518063580212829
+    second: Sci-fi Tileset re-imagined_83
+  - first:
+      213: 4166890519937150943
+    second: Sci-fi Tileset re-imagined_84
+  - first:
+      213: -2127615247841413340
+    second: Sci-fi Tileset re-imagined_85
+  - first:
+      213: -5675333738920484486
+    second: Sci-fi Tileset re-imagined_86
+  - first:
+      213: -6345856328421558779
+    second: Sci-fi Tileset re-imagined_87
+  - first:
+      213: 5190962119118775369
+    second: Sci-fi Tileset re-imagined_88
+  - first:
+      213: -2996676023504177703
+    second: Sci-fi Tileset re-imagined_89
+  - first:
+      213: -7573536270642133195
+    second: Sci-fi Tileset re-imagined_90
+  - first:
+      213: -5343239747659523781
+    second: Sci-fi Tileset re-imagined_91
+  - first:
+      213: -8784764864043529686
+    second: Sci-fi Tileset re-imagined_92
+  - first:
+      213: 7169515961978903142
+    second: Sci-fi Tileset re-imagined_93
+  - first:
+      213: 8179429501566429940
+    second: Sci-fi Tileset re-imagined_94
+  - first:
+      213: -2464269154760130893
+    second: Sci-fi Tileset re-imagined_95
+  - first:
+      213: -1339302220327308793
+    second: Sci-fi Tileset re-imagined_96
+  - first:
+      213: -2751808330844554824
+    second: Sci-fi Tileset re-imagined_97
+  - first:
+      213: -6058100450737700769
+    second: Sci-fi Tileset re-imagined_98
+  - first:
+      213: 4065557946645954245
+    second: Sci-fi Tileset re-imagined_99
+  - first:
+      213: 4264085657860724746
+    second: Sci-fi Tileset re-imagined_100
+  - first:
+      213: -3480951901734098054
+    second: Sci-fi Tileset re-imagined_101
+  - first:
+      213: 892258061284808871
+    second: Sci-fi Tileset re-imagined_102
+  - first:
+      213: 7177763357937089582
+    second: Sci-fi Tileset re-imagined_103
+  - first:
+      213: -2624572985809418885
+    second: Sci-fi Tileset re-imagined_104
+  - first:
+      213: -2149126909847401663
+    second: Sci-fi Tileset re-imagined_105
+  - first:
+      213: 8245445559079830258
+    second: Sci-fi Tileset re-imagined_106
+  - first:
+      213: -1253974494641847306
+    second: Sci-fi Tileset re-imagined_107
+  - first:
+      213: 2169956748466130140
+    second: Sci-fi Tileset re-imagined_108
+  - first:
+      213: 8928492959154906032
+    second: Sci-fi Tileset re-imagined_109
+  - first:
+      213: 6029163581235227053
+    second: Sci-fi Tileset re-imagined_110
+  - first:
+      213: -5864883577633936223
+    second: Sci-fi Tileset re-imagined_111
+  - first:
+      213: -4932913610831657827
+    second: Sci-fi Tileset re-imagined_112
+  - first:
+      213: -3649457047743394277
+    second: Sci-fi Tileset re-imagined_113
+  - first:
+      213: -4941958123170881884
+    second: Sci-fi Tileset re-imagined_114
+  - first:
+      213: -4639610386602087427
+    second: Sci-fi Tileset re-imagined_115
+  - first:
+      213: 7908789849779820694
+    second: Sci-fi Tileset re-imagined_116
+  - first:
+      213: 4729213332766871595
+    second: Sci-fi Tileset re-imagined_117
+  - first:
+      213: -9171218331447732091
+    second: Sci-fi Tileset re-imagined_118
+  - first:
+      213: 8868230927000853448
+    second: Sci-fi Tileset re-imagined_119
+  - first:
+      213: -318466474267552938
+    second: Sci-fi Tileset re-imagined_120
+  - first:
+      213: -5988740006635645455
+    second: Sci-fi Tileset re-imagined_121
+  - first:
+      213: -3501148354941605657
+    second: Sci-fi Tileset re-imagined_122
+  - first:
+      213: -3658752931531730607
+    second: Sci-fi Tileset re-imagined_123
+  - first:
+      213: -4311947563143802359
+    second: Sci-fi Tileset re-imagined_124
+  - first:
+      213: 4552797006558046941
+    second: Sci-fi Tileset re-imagined_125
+  - first:
+      213: 4160352873310247092
+    second: Sci-fi Tileset re-imagined_126
+  - first:
+      213: 1537401349042768006
+    second: Sci-fi Tileset re-imagined_127
+  - first:
+      213: 8132268812444556428
+    second: Sci-fi Tileset re-imagined_128
+  - first:
+      213: 350447497328750274
+    second: Sci-fi Tileset re-imagined_129
+  - first:
+      213: 3904879641043017303
+    second: Sci-fi Tileset re-imagined_130
+  - first:
+      213: -2764181063625819741
+    second: Sci-fi Tileset re-imagined_131
+  - first:
+      213: 4415864989366468257
+    second: Sci-fi Tileset re-imagined_132
+  - first:
+      213: 6273482463140905453
+    second: Sci-fi Tileset re-imagined_133
+  - first:
+      213: -636532416409718401
+    second: Sci-fi Tileset re-imagined_134
+  - first:
+      213: -4638073540388695209
+    second: Sci-fi Tileset re-imagined_135
+  - first:
+      213: -3324308445695155893
+    second: Sci-fi Tileset re-imagined_136
+  - first:
+      213: -7367324354908062583
+    second: Sci-fi Tileset re-imagined_137
+  - first:
+      213: 1191010184197673124
+    second: Sci-fi Tileset re-imagined_138
+  - first:
+      213: 5335988306851492309
+    second: Sci-fi Tileset re-imagined_139
+  - first:
+      213: 3006142320160428536
+    second: Sci-fi Tileset re-imagined_140
+  - first:
+      213: -4298948830173067860
+    second: Sci-fi Tileset re-imagined_141
+  - first:
+      213: 7981655731741289309
+    second: Sci-fi Tileset re-imagined_142
+  - first:
+      213: 4024715405280996905
+    second: Sci-fi Tileset re-imagined_143
+  - first:
+      213: -4479301644633622863
+    second: Sci-fi Tileset re-imagined_144
+  - first:
+      213: 7788663195021887399
+    second: Sci-fi Tileset re-imagined_145
+  - first:
+      213: -1157874514738762285
+    second: Sci-fi Tileset re-imagined_146
+  - first:
+      213: 4104993266389357635
+    second: Sci-fi Tileset re-imagined_147
+  - first:
+      213: 899492351283656906
+    second: Sci-fi Tileset re-imagined_148
+  - first:
+      213: 5486015178440870168
+    second: Sci-fi Tileset re-imagined_149
+  - first:
+      213: -6079665656831074352
+    second: Sci-fi Tileset re-imagined_150
+  - first:
+      213: 957440825186875884
+    second: Sci-fi Tileset re-imagined_151
+  - first:
+      213: 4350311903523418671
+    second: Sci-fi Tileset re-imagined_152
+  - first:
+      213: -3922534944782082373
+    second: Sci-fi Tileset re-imagined_153
+  - first:
+      213: 2829739213283820425
+    second: Sci-fi Tileset re-imagined_154
+  - first:
+      213: -1110738334426186422
+    second: Sci-fi Tileset re-imagined_155
+  - first:
+      213: 4783875656527154126
+    second: Sci-fi Tileset re-imagined_156
+  - first:
+      213: -627994989302078692
+    second: Sci-fi Tileset re-imagined_157
+  - first:
+      213: 573782468277413801
+    second: Sci-fi Tileset re-imagined_158
+  - first:
+      213: 1525186969685723627
+    second: Sci-fi Tileset re-imagined_159
+  - first:
+      213: -354213243438571244
+    second: Sci-fi Tileset re-imagined_160
+  - first:
+      213: -3882256214893837696
+    second: Sci-fi Tileset re-imagined_161
+  - first:
+      213: -1323517130944873962
+    second: Sci-fi Tileset re-imagined_162
+  - first:
+      213: -2557511497579455783
+    second: Sci-fi Tileset re-imagined_163
+  - first:
+      213: 2117395825004925941
+    second: Sci-fi Tileset re-imagined_164
+  - first:
+      213: 6137412933234108476
+    second: Sci-fi Tileset re-imagined_165
+  - first:
+      213: -3859124795900914824
+    second: Sci-fi Tileset re-imagined_166
+  - first:
+      213: 1179484234060651669
+    second: Sci-fi Tileset re-imagined_167
+  - first:
+      213: 4162214508439510952
+    second: Sci-fi Tileset re-imagined_168
+  - first:
+      213: -5819969128732687748
+    second: Sci-fi Tileset re-imagined_169
+  - first:
+      213: -2846270668831477933
+    second: Sci-fi Tileset re-imagined_170
+  - first:
+      213: -4761483942574782007
+    second: Sci-fi Tileset re-imagined_171
+  - first:
+      213: 534621144907935176
+    second: Sci-fi Tileset re-imagined_172
+  - first:
+      213: -1627962689452702316
+    second: Sci-fi Tileset re-imagined_173
+  - first:
+      213: 4162939146124280072
+    second: Sci-fi Tileset re-imagined_174
+  - first:
+      213: -3533882071276457401
+    second: Sci-fi Tileset re-imagined_175
+  - first:
+      213: 5475312514785346127
+    second: Sci-fi Tileset re-imagined_176
+  - first:
+      213: -8708722410901832588
+    second: Sci-fi Tileset re-imagined_177
+  - first:
+      213: -408380141362403744
+    second: Sci-fi Tileset re-imagined_178
+  - first:
+      213: 7400637510636592513
+    second: Sci-fi Tileset re-imagined_179
+  - first:
+      213: 4624525678919243288
+    second: Sci-fi Tileset re-imagined_180
+  - first:
+      213: -3288085076417348164
+    second: Sci-fi Tileset re-imagined_181
+  - first:
+      213: 2766077408235399874
+    second: Sci-fi Tileset re-imagined_182
+  - first:
+      213: -6587491364431838252
+    second: Sci-fi Tileset re-imagined_183
+  - first:
+      213: 6657338332709505478
+    second: Sci-fi Tileset re-imagined_184
+  - first:
+      213: 6804207572845888117
+    second: Sci-fi Tileset re-imagined_185
+  - first:
+      213: 8042390433903654389
+    second: Sci-fi Tileset re-imagined_186
+  - first:
+      213: 1646864453277403765
+    second: Sci-fi Tileset re-imagined_187
+  - first:
+      213: 4957414818350877264
+    second: Sci-fi Tileset re-imagined_188
+  - first:
+      213: -8589210770475960659
+    second: Sci-fi Tileset re-imagined_189
+  - first:
+      213: 1569969669649767221
+    second: Sci-fi Tileset re-imagined_190
+  - first:
+      213: 4686949762190138555
+    second: Sci-fi Tileset re-imagined_191
+  - first:
+      213: -9009814683866317012
+    second: Sci-fi Tileset re-imagined_192
+  - first:
+      213: -4973828627164728470
+    second: Sci-fi Tileset re-imagined_193
+  - first:
+      213: 8575061289787920148
+    second: Sci-fi Tileset re-imagined_194
+  - first:
+      213: 1572583932250388727
+    second: Sci-fi Tileset re-imagined_195
+  - first:
+      213: 4788478068248430182
+    second: Sci-fi Tileset re-imagined_196
+  - first:
+      213: -3344673165081278656
+    second: Sci-fi Tileset re-imagined_197
+  - first:
+      213: -9065817176416029510
+    second: Sci-fi Tileset re-imagined_198
+  - first:
+      213: -675396544555402757
+    second: Sci-fi Tileset re-imagined_199
+  - first:
+      213: 4335991475391578807
+    second: Sci-fi Tileset re-imagined_200
+  - first:
+      213: -1726616779313813848
+    second: Sci-fi Tileset re-imagined_201
+  - first:
+      213: 2305208104824075699
+    second: Sci-fi Tileset re-imagined_202
+  - first:
+      213: 1201395530215088020
+    second: Sci-fi Tileset re-imagined_203
+  - first:
+      213: -3758147852965846271
+    second: Sci-fi Tileset re-imagined_204
+  - first:
+      213: -3758996292951861550
+    second: Sci-fi Tileset re-imagined_205
+  - first:
+      213: -2488182392049075460
+    second: Sci-fi Tileset re-imagined_206
+  - first:
+      213: -6112428342423339085
+    second: Sci-fi Tileset re-imagined_207
+  - first:
+      213: 8831967330639336733
+    second: Sci-fi Tileset re-imagined_208
+  - first:
+      213: 1777872674211999836
+    second: Sci-fi Tileset re-imagined_209
+  - first:
+      213: 8936800353017125016
+    second: Sci-fi Tileset re-imagined_210
+  - first:
+      213: 8882672813619280198
+    second: Sci-fi Tileset re-imagined_211
+  - first:
+      213: -3420555846558175920
+    second: Sci-fi Tileset re-imagined_212
+  - first:
+      213: -6844672673206316377
+    second: Sci-fi Tileset re-imagined_213
+  - first:
+      213: -1793823089116798723
+    second: Sci-fi Tileset re-imagined_214
+  - first:
+      213: -2499154746415179939
+    second: Sci-fi Tileset re-imagined_215
+  - first:
+      213: -5471424572056860509
+    second: Sci-fi Tileset re-imagined_216
+  - first:
+      213: 6391570316692134617
+    second: Sci-fi Tileset re-imagined_217
+  - first:
+      213: -2935679201095373437
+    second: Sci-fi Tileset re-imagined_218
+  - first:
+      213: -9063903823120478464
+    second: Sci-fi Tileset re-imagined_219
+  - first:
+      213: 2310037229124020978
+    second: Sci-fi Tileset re-imagined_220
+  - first:
+      213: -6873606348230431219
+    second: Sci-fi Tileset re-imagined_221
+  - first:
+      213: 7272929540257641509
+    second: Sci-fi Tileset re-imagined_222
+  - first:
+      213: 1752707365070560827
+    second: Sci-fi Tileset re-imagined_223
+  - first:
+      213: 5083377314657817842
+    second: Sci-fi Tileset re-imagined_224
+  - first:
+      213: -7225401157193893445
+    second: Sci-fi Tileset re-imagined_225
+  - first:
+      213: 247306076905371054
+    second: Sci-fi Tileset re-imagined_226
+  - first:
+      213: -7074813012927727769
+    second: Sci-fi Tileset re-imagined_227
+  - first:
+      213: 1382299382594092214
+    second: Sci-fi Tileset re-imagined_228
+  - first:
+      213: 2010029727103911237
+    second: Sci-fi Tileset re-imagined_229
+  - first:
+      213: -7438604985155777574
+    second: Sci-fi Tileset re-imagined_230
+  - first:
+      213: -7355122516821946238
+    second: Sci-fi Tileset re-imagined_231
+  - first:
+      213: -5020572181925085150
+    second: Sci-fi Tileset re-imagined_232
+  - first:
+      213: -6530413179118642681
+    second: Sci-fi Tileset re-imagined_233
+  - first:
+      213: 7223728587833455148
+    second: Sci-fi Tileset re-imagined_234
+  - first:
+      213: -3098715012686483606
+    second: Sci-fi Tileset re-imagined_235
+  - first:
+      213: 26830125862733446
+    second: Sci-fi Tileset re-imagined_236
+  - first:
+      213: -2422742580138833691
+    second: Sci-fi Tileset re-imagined_237
+  - first:
+      213: -521077832840683971
+    second: Sci-fi Tileset re-imagined_238
+  - first:
+      213: 584249329551767688
+    second: Sci-fi Tileset re-imagined_239
+  - first:
+      213: -7129953024240787498
+    second: Sci-fi Tileset re-imagined_240
+  - first:
+      213: 433997030362759637
+    second: Sci-fi Tileset re-imagined_241
+  - first:
+      213: -7960037181955602395
+    second: Sci-fi Tileset re-imagined_242
+  - first:
+      213: 8558490177146314741
+    second: Sci-fi Tileset re-imagined_243
+  - first:
+      213: 5591355303683000163
+    second: Sci-fi Tileset re-imagined_244
+  - first:
+      213: 439656991008848909
+    second: Sci-fi Tileset re-imagined_245
+  - first:
+      213: 8089842774300478379
+    second: Sci-fi Tileset re-imagined_246
+  - first:
+      213: 852310045607480789
+    second: Sci-fi Tileset re-imagined_247
+  - first:
+      213: -2907403148530999486
+    second: Sci-fi Tileset re-imagined_248
+  - first:
+      213: 8240365693987314029
+    second: Sci-fi Tileset re-imagined_249
+  - first:
+      213: 1242531650021361668
+    second: Sci-fi Tileset re-imagined_250
+  - first:
+      213: 8741860598241400893
+    second: Sci-fi Tileset re-imagined_251
+  - first:
+      213: -751267727929809874
+    second: Sci-fi Tileset re-imagined_252
+  - first:
+      213: -824416049906842541
+    second: Sci-fi Tileset re-imagined_253
+  - first:
+      213: -8893372261269076787
+    second: Sci-fi Tileset re-imagined_254
+  - first:
+      213: -4143148980361208563
+    second: Sci-fi Tileset re-imagined_255
+  - first:
+      213: -1780686296839669758
+    second: Sci-fi Tileset re-imagined_256
+  - first:
+      213: 6890561967921207125
+    second: Sci-fi Tileset re-imagined_257
+  - first:
+      213: -213476483502916292
+    second: Sci-fi Tileset re-imagined_258
+  - first:
+      213: 7844181717106573009
+    second: Sci-fi Tileset re-imagined_259
+  - first:
+      213: 4023636776692365240
+    second: Sci-fi Tileset re-imagined_260
+  - first:
+      213: 7378970833051129703
+    second: Sci-fi Tileset re-imagined_261
+  - first:
+      213: -2848808494566460609
+    second: Sci-fi Tileset re-imagined_262
+  - first:
+      213: 6425783375811037037
+    second: Sci-fi Tileset re-imagined_263
+  - first:
+      213: 1091414844248354704
+    second: Sci-fi Tileset re-imagined_264
+  - first:
+      213: 3911213339900884661
+    second: Sci-fi Tileset re-imagined_265
+  - first:
+      213: 8921192486452258739
+    second: Sci-fi Tileset re-imagined_266
+  - first:
+      213: -4289751881097256709
+    second: Sci-fi Tileset re-imagined_267
+  - first:
+      213: -1757098429162442177
+    second: Sci-fi Tileset re-imagined_268
+  - first:
+      213: -3785974049722759874
+    second: Sci-fi Tileset re-imagined_269
+  - first:
+      213: 237102012088302691
+    second: Sci-fi Tileset re-imagined_270
+  - first:
+      213: 2754093373282260103
+    second: Sci-fi Tileset re-imagined_271
+  - first:
+      213: 896761358616713463
+    second: Sci-fi Tileset re-imagined_272
+  - first:
+      213: -8291117902988481541
+    second: Sci-fi Tileset re-imagined_273
+  - first:
+      213: -3194442718914848468
+    second: Sci-fi Tileset re-imagined_274
+  - first:
+      213: 3456852194573898250
+    second: Sci-fi Tileset re-imagined_275
+  - first:
+      213: 5771895759691367040
+    second: Sci-fi Tileset re-imagined_276
+  - first:
+      213: 8240997202169196942
+    second: Sci-fi Tileset re-imagined_277
+  - first:
+      213: -3116471993354006971
+    second: Sci-fi Tileset re-imagined_278
+  - first:
+      213: 3592747346561701630
+    second: Sci-fi Tileset re-imagined_279
+  - first:
+      213: -3574120459990233801
+    second: Sci-fi Tileset re-imagined_280
+  - first:
+      213: 2700956460945374907
+    second: Sci-fi Tileset re-imagined_281
+  - first:
+      213: 8453823241482926724
+    second: Sci-fi Tileset re-imagined_282
+  - first:
+      213: -4515785945222797096
+    second: Sci-fi Tileset re-imagined_283
+  - first:
+      213: 472195250223602070
+    second: Sci-fi Tileset re-imagined_284
+  - first:
+      213: 1633205441396778707
+    second: Sci-fi Tileset re-imagined_285
+  - first:
+      213: 1339342560216732645
+    second: Sci-fi Tileset re-imagined_286
+  - first:
+      213: -773676141469878973
+    second: Sci-fi Tileset re-imagined_287
+  - first:
+      213: 7557016094544974881
+    second: Sci-fi Tileset re-imagined_288
+  - first:
+      213: 3207993201107505416
+    second: Sci-fi Tileset re-imagined_289
+  - first:
+      213: -6386619500407784497
+    second: Sci-fi Tileset re-imagined_290
+  - first:
+      213: 7021557244511904638
+    second: Sci-fi Tileset re-imagined_291
+  - first:
+      213: 5392169931671753099
+    second: Sci-fi Tileset re-imagined_292
+  - first:
+      213: 1661278055179263802
+    second: Sci-fi Tileset re-imagined_293
+  - first:
+      213: -2577880469499947675
+    second: Sci-fi Tileset re-imagined_294
+  - first:
+      213: -1420838275176162309
+    second: Sci-fi Tileset re-imagined_295
+  - first:
+      213: 1609360455155095152
+    second: Sci-fi Tileset re-imagined_296
+  - first:
+      213: -7957718941936387541
+    second: Sci-fi Tileset re-imagined_297
+  - first:
+      213: 7187260387814393665
+    second: Sci-fi Tileset re-imagined_298
+  - first:
+      213: -6434621154075763687
+    second: Sci-fi Tileset re-imagined_299
+  - first:
+      213: 1731810933627130490
+    second: Sci-fi Tileset re-imagined_300
+  - first:
+      213: 951879253706631775
+    second: Sci-fi Tileset re-imagined_301
+  - first:
+      213: 1142044935620957569
+    second: Sci-fi Tileset re-imagined_302
+  - first:
+      213: -9121397039968159349
+    second: Sci-fi Tileset re-imagined_303
+  - first:
+      213: -1650381805587739142
+    second: Sci-fi Tileset re-imagined_304
+  - first:
+      213: -7934213479660454031
+    second: Sci-fi Tileset re-imagined_305
+  - first:
+      213: 4576207536918792351
+    second: Sci-fi Tileset re-imagined_306
+  - first:
+      213: -349227708557860664
+    second: Sci-fi Tileset re-imagined_307
+  - first:
+      213: -5601370674051024561
+    second: Sci-fi Tileset re-imagined_308
+  - first:
+      213: 5303084225023414316
+    second: Sci-fi Tileset re-imagined_309
+  - first:
+      213: -5675073743713018351
+    second: Sci-fi Tileset re-imagined_310
+  - first:
+      213: -6726970991414322670
+    second: Sci-fi Tileset re-imagined_311
+  - first:
+      213: -8640462250630128396
+    second: Sci-fi Tileset re-imagined_312
+  - first:
+      213: -2048483733910766912
+    second: Sci-fi Tileset re-imagined_313
+  - first:
+      213: 1541144773990455738
+    second: Sci-fi Tileset re-imagined_314
+  - first:
+      213: -7460631052497639310
+    second: Sci-fi Tileset re-imagined_315
+  - first:
+      213: -7870795024746279831
+    second: Sci-fi Tileset re-imagined_316
+  - first:
+      213: -6925544626066028757
+    second: Sci-fi Tileset re-imagined_317
+  - first:
+      213: 5695922464519943719
+    second: Sci-fi Tileset re-imagined_318
+  - first:
+      213: -5986357508437969606
+    second: Sci-fi Tileset re-imagined_319
+  - first:
+      213: -7151130738189186697
+    second: Sci-fi Tileset re-imagined_320
+  - first:
+      213: 733343413105377917
+    second: Sci-fi Tileset re-imagined_321
+  - first:
+      213: -478007451144486473
+    second: Sci-fi Tileset re-imagined_322
+  - first:
+      213: 9084332054279199937
+    second: Sci-fi Tileset re-imagined_323
+  - first:
+      213: 2489572659962792387
+    second: Sci-fi Tileset re-imagined_324
+  - first:
+      213: -3710927301033009270
+    second: Sci-fi Tileset re-imagined_325
+  - first:
+      213: -615891271970194970
+    second: Sci-fi Tileset re-imagined_326
+  - first:
+      213: 7983535368262671967
+    second: Sci-fi Tileset re-imagined_327
+  - first:
+      213: -6590065714261472087
+    second: Sci-fi Tileset re-imagined_328
+  - first:
+      213: -1250797222503701684
+    second: Sci-fi Tileset re-imagined_329
+  - first:
+      213: 1976418949679392227
+    second: Sci-fi Tileset re-imagined_330
+  - first:
+      213: -3690685239401716953
+    second: Sci-fi Tileset re-imagined_331
+  - first:
+      213: -4558334331962882452
+    second: Sci-fi Tileset re-imagined_332
+  - first:
+      213: 6514490570552047417
+    second: Sci-fi Tileset re-imagined_333
+  - first:
+      213: 5765454392963479080
+    second: Sci-fi Tileset re-imagined_334
+  - first:
+      213: 625895068244093485
+    second: Sci-fi Tileset re-imagined_335
+  - first:
+      213: -4913238024570406880
+    second: Sci-fi Tileset re-imagined_336
+  - first:
+      213: 7966474265790089264
+    second: Sci-fi Tileset re-imagined_337
+  - first:
+      213: 8888277924479282112
+    second: Sci-fi Tileset re-imagined_338
+  - first:
+      213: -1245414261025434282
+    second: Sci-fi Tileset re-imagined_339
+  - first:
+      213: -1390559969068354240
+    second: Sci-fi Tileset re-imagined_340
+  - first:
+      213: 4545387279913050471
+    second: Sci-fi Tileset re-imagined_341
+  - first:
+      213: 9127140001144320131
+    second: Sci-fi Tileset re-imagined_342
+  - first:
+      213: -4351577711946188728
+    second: Sci-fi Tileset re-imagined_343
+  - first:
+      213: -3358651954405627445
+    second: Sci-fi Tileset re-imagined_344
+  - first:
+      213: 6394220259514735158
+    second: Sci-fi Tileset re-imagined_345
+  - first:
+      213: -8188224686107645681
+    second: Sci-fi Tileset re-imagined_346
+  - first:
+      213: -3274795742351658363
+    second: Sci-fi Tileset re-imagined_347
+  - first:
+      213: -8648615692583216505
+    second: Sci-fi Tileset re-imagined_348
+  - first:
+      213: -8575095008154210557
+    second: Sci-fi Tileset re-imagined_349
+  - first:
+      213: -2664498703226624220
+    second: Sci-fi Tileset re-imagined_350
+  - first:
+      213: -2710144806615970766
+    second: Sci-fi Tileset re-imagined_351
+  - first:
+      213: -7435496334338957964
+    second: Sci-fi Tileset re-imagined_352
+  - first:
+      213: -7555957811926526022
+    second: Sci-fi Tileset re-imagined_353
+  - first:
+      213: -1913443163132674912
+    second: Sci-fi Tileset re-imagined_354
+  - first:
+      213: -1810981892938273021
+    second: Sci-fi Tileset re-imagined_355
+  - first:
+      213: -8410793152367197693
+    second: Sci-fi Tileset re-imagined_356
+  - first:
+      213: 3367686337501382480
+    second: Sci-fi Tileset re-imagined_357
+  - first:
+      213: -5769776809880133202
+    second: Sci-fi Tileset re-imagined_358
+  - first:
+      213: 2284360883254886453
+    second: Sci-fi Tileset re-imagined_359
+  - first:
+      213: -1760581183539077333
+    second: Sci-fi Tileset re-imagined_360
+  - first:
+      213: -3276056896608871925
+    second: Sci-fi Tileset re-imagined_361
+  - first:
+      213: -5904132736239541781
+    second: Sci-fi Tileset re-imagined_362
+  - first:
+      213: 7995370128528194468
+    second: Sci-fi Tileset re-imagined_363
+  - first:
+      213: 623840024029107318
+    second: Sci-fi Tileset re-imagined_364
+  - first:
+      213: 8715011116276212754
+    second: Sci-fi Tileset re-imagined_365
+  - first:
+      213: -4874745685792349579
+    second: Sci-fi Tileset re-imagined_366
+  - first:
+      213: -4512157008820283569
+    second: Sci-fi Tileset re-imagined_367
+  - first:
+      213: 4354159637730119284
+    second: Sci-fi Tileset re-imagined_368
+  - first:
+      213: 2109903689184142431
+    second: Sci-fi Tileset re-imagined_369
+  - first:
+      213: 8038812967910039490
+    second: Sci-fi Tileset re-imagined_370
+  - first:
+      213: 7692774133881472687
+    second: Sci-fi Tileset re-imagined_371
+  - first:
+      213: 762727687753749063
+    second: Sci-fi Tileset re-imagined_372
+  - first:
+      213: -4040921980889913863
+    second: Sci-fi Tileset re-imagined_373
+  - first:
+      213: -3373573446521887121
+    second: Sci-fi Tileset re-imagined_374
+  - first:
+      213: 4723069549196429295
+    second: Sci-fi Tileset re-imagined_375
+  - first:
+      213: 7551297064348806225
+    second: Sci-fi Tileset re-imagined_376
+  - first:
+      213: 4991519404735189753
+    second: Sci-fi Tileset re-imagined_377
+  - first:
+      213: 4395864195996017744
+    second: Sci-fi Tileset re-imagined_378
+  - first:
+      213: 4278135755088996477
+    second: Sci-fi Tileset re-imagined_379
+  - first:
+      213: -1324819958609188253
+    second: Sci-fi Tileset re-imagined_380
+  - first:
+      213: -3268446891172043537
+    second: Sci-fi Tileset re-imagined_381
+  - first:
+      213: 8514537622718236684
+    second: Sci-fi Tileset re-imagined_382
+  - first:
+      213: 6491647206759380641
+    second: Sci-fi Tileset re-imagined_383
+  - first:
+      213: 4154559020871713543
+    second: Sci-fi Tileset re-imagined_384
+  - first:
+      213: -6304566436742507744
+    second: Sci-fi Tileset re-imagined_385
+  - first:
+      213: 1965911320558025988
+    second: Sci-fi Tileset re-imagined_386
+  - first:
+      213: -774797763343716577
+    second: Sci-fi Tileset re-imagined_387
+  - first:
+      213: 1633782356843073114
+    second: Sci-fi Tileset re-imagined_388
+  - first:
+      213: 4390031607735383045
+    second: Sci-fi Tileset re-imagined_389
+  - first:
+      213: 1134368582946878260
+    second: Sci-fi Tileset re-imagined_390
+  - first:
+      213: -8362244360845045572
+    second: Sci-fi Tileset re-imagined_391
+  - first:
+      213: 2005953407090724658
+    second: Sci-fi Tileset re-imagined_392
+  - first:
+      213: 8485448801504580440
+    second: Sci-fi Tileset re-imagined_393
+  - first:
+      213: -919101053818684750
+    second: Sci-fi Tileset re-imagined_394
+  - first:
+      213: -3176878081904258944
+    second: Sci-fi Tileset re-imagined_395
+  - first:
+      213: -600724410242883138
+    second: Sci-fi Tileset re-imagined_396
+  - first:
+      213: -2040031839416118435
+    second: Sci-fi Tileset re-imagined_397
+  - first:
+      213: -1102863161892627708
+    second: Sci-fi Tileset re-imagined_398
+  - first:
+      213: 2625207001065349652
+    second: Sci-fi Tileset re-imagined_399
+  - first:
+      213: 8812004029288938394
+    second: Sci-fi Tileset re-imagined_400
+  - first:
+      213: -7326780023823504826
+    second: Sci-fi Tileset re-imagined_401
+  - first:
+      213: 8811291902513059380
+    second: Sci-fi Tileset re-imagined_402
+  - first:
+      213: -7865083155397458907
+    second: Sci-fi Tileset re-imagined_403
+  - first:
+      213: 7158211071354863706
+    second: Sci-fi Tileset re-imagined_404
+  - first:
+      213: -4857335044735856642
+    second: Sci-fi Tileset re-imagined_405
+  - first:
+      213: -8160128801547540665
+    second: Sci-fi Tileset re-imagined_406
+  - first:
+      213: 1497411120747192987
+    second: Sci-fi Tileset re-imagined_407
+  - first:
+      213: 7668446042047232005
+    second: Sci-fi Tileset re-imagined_408
+  - first:
+      213: 437001303688172967
+    second: Sci-fi Tileset re-imagined_409
+  - first:
+      213: 1531749875047537862
+    second: Sci-fi Tileset re-imagined_410
+  - first:
+      213: 8491093165781246275
+    second: Sci-fi Tileset re-imagined_411
+  - first:
+      213: -3006288456716044035
+    second: Sci-fi Tileset re-imagined_412
+  - first:
+      213: -7351353453363430291
+    second: Sci-fi Tileset re-imagined_413
+  - first:
+      213: -219649787288243621
+    second: Sci-fi Tileset re-imagined_414
+  - first:
+      213: 8127391295219630309
+    second: Sci-fi Tileset re-imagined_415
+  - first:
+      213: -4484065114874937105
+    second: Sci-fi Tileset re-imagined_416
+  - first:
+      213: -3185476624117950625
+    second: Sci-fi Tileset re-imagined_417
+  - first:
+      213: -5581695962695397328
+    second: Sci-fi Tileset re-imagined_418
+  - first:
+      213: 4975799020197919416
+    second: Sci-fi Tileset re-imagined_419
+  - first:
+      213: -3257996442088182592
+    second: Sci-fi Tileset re-imagined_420
+  - first:
+      213: -600750940002919732
+    second: Sci-fi Tileset re-imagined_421
+  - first:
+      213: 5347617060510191584
+    second: Sci-fi Tileset re-imagined_422
+  - first:
+      213: -667463957024090887
+    second: Sci-fi Tileset re-imagined_423
+  - first:
+      213: 4730969019486823609
+    second: Sci-fi Tileset re-imagined_424
+  - first:
+      213: -9220946420514250444
+    second: Sci-fi Tileset re-imagined_425
+  - first:
+      213: -3272745122773383776
+    second: Sci-fi Tileset re-imagined_426
+  - first:
+      213: -156693590969124564
+    second: Sci-fi Tileset re-imagined_427
+  - first:
+      213: 3880509826385218346
+    second: Sci-fi Tileset re-imagined_428
+  - first:
+      213: -2487736114927259389
+    second: Sci-fi Tileset re-imagined_429
+  - first:
+      213: 7329442476666312573
+    second: Sci-fi Tileset re-imagined_430
+  - first:
+      213: 3085028819028240213
+    second: Sci-fi Tileset re-imagined_431
+  - first:
+      213: 5805489500834272413
+    second: Sci-fi Tileset re-imagined_432
+  - first:
+      213: 4025512157360675708
+    second: Sci-fi Tileset re-imagined_433
+  - first:
+      213: 429943476675409051
+    second: Sci-fi Tileset re-imagined_434
+  - first:
+      213: -6198989737563507852
+    second: Sci-fi Tileset re-imagined_435
+  - first:
+      213: 7044237534727981837
+    second: Sci-fi Tileset re-imagined_436
+  - first:
+      213: 1356991961584046144
+    second: Sci-fi Tileset re-imagined_437
+  - first:
+      213: 3667556875634920513
+    second: Sci-fi Tileset re-imagined_438
+  - first:
+      213: 1767674714368693939
+    second: Sci-fi Tileset re-imagined_439
+  - first:
+      213: 2090152522459708867
+    second: Sci-fi Tileset re-imagined_440
+  - first:
+      213: -687874891238052964
+    second: Sci-fi Tileset re-imagined_441
+  - first:
+      213: -9094161167066118866
+    second: Sci-fi Tileset re-imagined_442
+  - first:
+      213: 619782088734307144
+    second: Sci-fi Tileset re-imagined_443
+  - first:
+      213: 1566299114619268892
+    second: Sci-fi Tileset re-imagined_444
+  - first:
+      213: -5922248283485999618
+    second: Sci-fi Tileset re-imagined_445
+  - first:
+      213: -6213370368257944983
+    second: Sci-fi Tileset re-imagined_446
+  - first:
+      213: -5891577292140037805
+    second: Sci-fi Tileset re-imagined_447
+  - first:
+      213: -8759799452850539303
+    second: Sci-fi Tileset re-imagined_448
+  - first:
+      213: -9168394549717901694
+    second: Sci-fi Tileset re-imagined_449
+  - first:
+      213: 133734656172703623
+    second: Sci-fi Tileset re-imagined_450
+  - first:
+      213: -7923071806424086694
+    second: Sci-fi Tileset re-imagined_451
+  - first:
+      213: 3500154279037229156
+    second: Sci-fi Tileset re-imagined_452
+  - first:
+      213: 5624418886878013007
+    second: Sci-fi Tileset re-imagined_453
+  - first:
+      213: 5962149337266972788
+    second: Sci-fi Tileset re-imagined_454
+  - first:
+      213: -950158299332027186
+    second: Sci-fi Tileset re-imagined_455
+  - first:
+      213: -1445925038046407647
+    second: Sci-fi Tileset re-imagined_456
+  - first:
+      213: 7905684503347356979
+    second: Sci-fi Tileset re-imagined_457
+  - first:
+      213: 4938671872586913900
+    second: Sci-fi Tileset re-imagined_458
+  - first:
+      213: -3761119679121542128
+    second: Sci-fi Tileset re-imagined_459
+  - first:
+      213: -1968095585696101250
+    second: Sci-fi Tileset re-imagined_460
+  - first:
+      213: -3158951143247872086
+    second: Sci-fi Tileset re-imagined_461
+  - first:
+      213: 597691453063371845
+    second: Sci-fi Tileset re-imagined_462
+  - first:
+      213: 6670635773270753072
+    second: Sci-fi Tileset re-imagined_463
+  - first:
+      213: 4560809704259247193
+    second: Sci-fi Tileset re-imagined_464
+  - first:
+      213: 2072033030390088754
+    second: Sci-fi Tileset re-imagined_465
+  - first:
+      213: -1170215233829220301
+    second: Sci-fi Tileset re-imagined_466
+  - first:
+      213: -7893851900555141607
+    second: Sci-fi Tileset re-imagined_467
+  - first:
+      213: -8829221829338774559
+    second: Sci-fi Tileset re-imagined_468
+  - first:
+      213: -8219691840273631683
+    second: Sci-fi Tileset re-imagined_469
+  - first:
+      213: 2819249549038537262
+    second: Sci-fi Tileset re-imagined_470
+  - first:
+      213: 8628405478797669939
+    second: Sci-fi Tileset re-imagined_471
+  - first:
+      213: -2554624495860160914
+    second: Sci-fi Tileset re-imagined_472
+  - first:
+      213: 8573709008931933158
+    second: Sci-fi Tileset re-imagined_473
+  - first:
+      213: -2055053128134661512
+    second: Sci-fi Tileset re-imagined_474
+  - first:
+      213: 8609865436650317290
+    second: Sci-fi Tileset re-imagined_475
+  - first:
+      213: -5308558083616717299
+    second: Sci-fi Tileset re-imagined_476
+  - first:
+      213: -8533341133999605206
+    second: Sci-fi Tileset re-imagined_477
+  - first:
+      213: -7787769588849363159
+    second: Sci-fi Tileset re-imagined_478
+  - first:
+      213: -275288708033595143
+    second: Sci-fi Tileset re-imagined_479
+  - first:
+      213: -627891391283368126
+    second: Sci-fi Tileset re-imagined_480
+  - first:
+      213: -5367101053623640184
+    second: Sci-fi Tileset re-imagined_481
+  - first:
+      213: 5684343245040753443
+    second: Sci-fi Tileset re-imagined_482
+  - first:
+      213: 5795971094500390252
+    second: Sci-fi Tileset re-imagined_483
+  - first:
+      213: -2215030960614165065
+    second: Sci-fi Tileset re-imagined_484
+  - first:
+      213: 4474253931079356735
+    second: Sci-fi Tileset re-imagined_485
+  - first:
+      213: -2055458698112295545
+    second: Sci-fi Tileset re-imagined_486
+  - first:
+      213: -5352245894954466584
+    second: Sci-fi Tileset re-imagined_487
+  - first:
+      213: 3994714136577110020
+    second: Sci-fi Tileset re-imagined_488
+  - first:
+      213: -4067584028874360780
+    second: Sci-fi Tileset re-imagined_489
+  - first:
+      213: -2985137364714562641
+    second: Sci-fi Tileset re-imagined_490
+  - first:
+      213: 1880647742261487216
+    second: Sci-fi Tileset re-imagined_491
+  - first:
+      213: 8686476590106117259
+    second: Sci-fi Tileset re-imagined_492
+  - first:
+      213: -1780638157304674908
+    second: Sci-fi Tileset re-imagined_493
+  - first:
+      213: -3900293989121205423
+    second: Sci-fi Tileset re-imagined_494
+  - first:
+      213: -6032535617613274648
+    second: Sci-fi Tileset re-imagined_495
+  - first:
+      213: -5118921193670446662
+    second: Sci-fi Tileset re-imagined_496
+  - first:
+      213: -6696787569362179598
+    second: Sci-fi Tileset re-imagined_497
+  - first:
+      213: 2670078986916555560
+    second: Sci-fi Tileset re-imagined_498
+  - first:
+      213: 3062936249132795830
+    second: Sci-fi Tileset re-imagined_499
+  - first:
+      213: 7149687729444886877
+    second: Sci-fi Tileset re-imagined_500
+  - first:
+      213: 4936063212600564151
+    second: Sci-fi Tileset re-imagined_501
+  - first:
+      213: 7077917959145370978
+    second: Sci-fi Tileset re-imagined_502
+  - first:
+      213: -2909228367505969251
+    second: Sci-fi Tileset re-imagined_503
+  - first:
+      213: 6311146425957789138
+    second: Sci-fi Tileset re-imagined_504
+  - first:
+      213: -3602787325808498875
+    second: Sci-fi Tileset re-imagined_505
+  - first:
+      213: -7642533402037573641
+    second: Sci-fi Tileset re-imagined_506
+  - first:
+      213: -4687619065977302719
+    second: Sci-fi Tileset re-imagined_507
+  - first:
+      213: 8957076383972424229
+    second: Sci-fi Tileset re-imagined_508
+  - first:
+      213: 6695945293269851174
+    second: Sci-fi Tileset re-imagined_509
+  - first:
+      213: -5032969851165520837
+    second: Sci-fi Tileset re-imagined_510
+  - first:
+      213: -6943788937270990915
+    second: Sci-fi Tileset re-imagined_511
+  - first:
+      213: 7184153686027279390
+    second: Sci-fi Tileset re-imagined_512
+  - first:
+      213: -680088078021232406
+    second: Sci-fi Tileset re-imagined_513
+  - first:
+      213: 7446287383489596406
+    second: Sci-fi Tileset re-imagined_514
+  - first:
+      213: -4411863675702409197
+    second: Sci-fi Tileset re-imagined_515
+  - first:
+      213: -2682059283219524994
+    second: Sci-fi Tileset re-imagined_516
+  - first:
+      213: 2442121363566945037
+    second: Sci-fi Tileset re-imagined_517
+  - first:
+      213: -1820737142548510768
+    second: Sci-fi Tileset re-imagined_518
+  - first:
+      213: -8930367242954293774
+    second: Sci-fi Tileset re-imagined 1_0
+  - first:
+      213: -7508939370416242121
+    second: Sci-fi Tileset re-imagined 1_1
+  - first:
+      213: -8535676471978555598
+    second: Sci-fi Tileset re-imagined 1_2
+  - first:
+      213: 5213073699344514078
+    second: Sci-fi Tileset re-imagined 1_3
+  - first:
+      213: 8869317932861248155
+    second: Sci-fi Tileset re-imagined 1_4
+  - first:
+      213: -2037447458442783059
+    second: Sci-fi Tileset re-imagined 1_5
+  - first:
+      213: -2318015093872217431
+    second: Sci-fi Tileset re-imagined 1_6
+  - first:
+      213: 9031921020969039781
+    second: Sci-fi Tileset re-imagined 1_7
+  - first:
+      213: 651916054937712346
+    second: Sci-fi Tileset re-imagined 1_8
+  - first:
+      213: -530656989912983410
+    second: Sci-fi Tileset re-imagined 1_9
+  - first:
+      213: 4123676619188455195
+    second: Sci-fi Tileset re-imagined 1_10
+  - first:
+      213: -7587851729961209847
+    second: Sci-fi Tileset re-imagined 1_11
+  - first:
+      213: 5935851062357217065
+    second: Sci-fi Tileset re-imagined 1_12
+  - first:
+      213: 4614919590237237174
+    second: Sci-fi Tileset re-imagined 1_13
+  - first:
+      213: -2987273180215621912
+    second: Sci-fi Tileset re-imagined 1_14
+  - first:
+      213: -6206600537486630637
+    second: Sci-fi Tileset re-imagined 1_15
+  - first:
+      213: -2536708419327147026
+    second: Sci-fi Tileset re-imagined 1_16
+  - first:
+      213: -2486012750202629396
+    second: Sci-fi Tileset re-imagined 1_17
+  - first:
+      213: -965561307064895637
+    second: Sci-fi Tileset re-imagined 1_18
+  - first:
+      213: -7207625032423787629
+    second: Sci-fi Tileset re-imagined 1_19
+  - first:
+      213: -2545067983530019572
+    second: Sci-fi Tileset re-imagined 1_20
+  - first:
+      213: -2289624841422239113
+    second: Sci-fi Tileset re-imagined 1_21
+  - first:
+      213: 2226505263083124926
+    second: Sci-fi Tileset re-imagined 1_22
+  - first:
+      213: -8223167967274425937
+    second: Sci-fi Tileset re-imagined 1_23
+  - first:
+      213: 4433331376372449679
+    second: Sci-fi Tileset re-imagined 1_24
+  - first:
+      213: 4141452199693609833
+    second: Sci-fi Tileset re-imagined 1_25
+  - first:
+      213: 8644172684914647053
+    second: Sci-fi Tileset re-imagined 1_26
+  - first:
+      213: 7933846464799337886
+    second: Sci-fi Tileset re-imagined 1_27
+  - first:
+      213: 4819291219586789028
+    second: Sci-fi Tileset re-imagined 1_28
+  - first:
+      213: -1774171199707004489
+    second: Sci-fi Tileset re-imagined 1_29
+  - first:
+      213: -6575321525108217571
+    second: Sci-fi Tileset re-imagined 1_30
+  - first:
+      213: 8147712808493092052
+    second: Sci-fi Tileset re-imagined 1_31
+  - first:
+      213: -2227488246278774224
+    second: Sci-fi Tileset re-imagined 1_32
+  - first:
+      213: 1291623258015288208
+    second: Sci-fi Tileset re-imagined 1_33
+  - first:
+      213: -2700168047331444776
+    second: Sci-fi Tileset re-imagined 1_34
+  - first:
+      213: -3403948846174171547
+    second: Sci-fi Tileset re-imagined 1_35
+  - first:
+      213: -6678644260479964918
+    second: Sci-fi Tileset re-imagined 1_36
+  - first:
+      213: 1441433489674699027
+    second: Sci-fi Tileset re-imagined 1_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 1
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 1
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 281
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdbce1ce46f01480800000000000000
+      internalID: -8930367242954293774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 128
+        width: 284
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732056a3d63eac790800000000000000
+      internalID: -7508939370416242121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_2
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 57
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370f02097f2b8980800000000000000
+      internalID: -8535676471978555598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 192
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7c55d8ee885840800000000000000
+      internalID: 5213073699344514078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 117
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9252341ba5261b70800000000000000
+      internalID: 8869317932861248155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_5
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 125
+        width: 12
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6def6d45889b3e0800000000000000
+      internalID: -2037447458442783059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_6
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 139
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b0c1bd81c4dfd0800000000000000
+      internalID: -2318015093872217431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 146
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a73e3eb054d75d70800000000000000
+      internalID: 9031921020969039781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 98
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6bfeda2321c0900800000000000000
+      internalID: 651916054937712346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 96
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8898aa774ab2a8f0800000000000000
+      internalID: -530656989912983410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 94
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17cf47790e3a3930800000000000000
+      internalID: 4123676619188455195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 94
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003453cd0982b690800000000000000
+      internalID: -7587851729961209847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f4d6b7711606250800000000000000
+      internalID: 5935851062357217065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 96
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe41b9aec7b0040800000000000000
+      internalID: 4614919590237237174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_14
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 96
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6423eaed21b86d0800000000000000
+      internalID: -2987273180215621912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 96
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3116c54f1b9bdd9a0800000000000000
+      internalID: -6206600537486630637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_16
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 72
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee34347f12dcbccd0800000000000000
+      internalID: -2536708419327147026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 77
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2941d3398ef7dd0800000000000000
+      internalID: -2486012750202629396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 80
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67f8836b13a992f0800000000000000
+      internalID: -965561307064895637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393ba2c783f59fb90800000000000000
+      internalID: -7207625032423787629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 80
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c053970472a1eacd0800000000000000
+      internalID: -2545067983530019572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a0e12765e9930e0800000000000000
+      internalID: -2289624841422239113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_22
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 48
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb87b908db226ee10800000000000000
+      internalID: 2226505263083124926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_23
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 48
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1ac3e4d4071ed80800000000000000
+      internalID: -8223167967274425937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 48
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810644e56b568d30800000000000000
+      internalID: 4433331376372449679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 48
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b6ff055d4697930800000000000000
+      internalID: 4141452199693609833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 48
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00e875124546f770800000000000000
+      internalID: 8644172684914647053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_27
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d6adc035faa1e60800000000000000
+      internalID: 7933846464799337886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_28
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 53
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae21ac94df81e240800000000000000
+      internalID: 4819291219586789028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 56
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14cbe91b0e067e0800000000000000
+      internalID: -1774171199707004489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 16
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19e1f319e3cfb4a0800000000000000
+      internalID: -6575321525108217571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_31
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 14
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc812281ad721170800000000000000
+      internalID: 8147712808493092052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 16
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0322233ed3f5611e0800000000000000
+      internalID: -2227488246278774224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_33
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 16
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b42a58284cce110800000000000000
+      internalID: 1291623258015288208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_34
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7f2f09773178ad0800000000000000
+      internalID: -2700168047331444776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e003e2f8eb2c0d0800000000000000
+      internalID: -3403948846174171547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_36
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e3e81e60b053a0800000000000000
+      internalID: -6678644260479964918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi Tileset re-imagined 1_37
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 52
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311896f2f10010410800000000000000
+      internalID: 1441433489674699027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

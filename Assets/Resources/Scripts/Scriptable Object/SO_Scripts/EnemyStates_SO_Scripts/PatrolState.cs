@@ -8,8 +8,9 @@ public class PatrolState : State
 {
     public float RandomMinDist = 2;
     public float RandomMaxDist = 5;
+    public string triggerName = "Reached Patrol Position";
 
-    
+
 
 
     SpriteRenderer spriteRenderer;
@@ -73,7 +74,7 @@ public class PatrolState : State
 
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
-            anim.SetTrigger("Reached Patrol Position");
+            anim.SetTrigger(triggerName);
         }
 
 

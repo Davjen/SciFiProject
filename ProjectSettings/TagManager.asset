@@ -54,3 +54,21 @@ TagManager:
   - name: Obstacles
     uniqueID: 379812671
     locked: 0
+  - name: Background
+    uniqueID: 804066917
+    locked: 0
+  - name: Middleground
+    uniqueID: 733585857
+    locked: 0
+  - name: Playground
+    uniqueID: 973836871
+    locked: 0
+  - name: BackDecorations
+    uniqueID: 695306527
+    locked: 0
+  - name: Foreground
+    uniqueID: 911030589
+    locked: 0
+  - name: TopDecorations
+    uniqueID: 722412927
+    locked: 0

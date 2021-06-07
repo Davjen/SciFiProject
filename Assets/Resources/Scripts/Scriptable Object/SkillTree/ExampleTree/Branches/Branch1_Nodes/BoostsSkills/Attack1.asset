@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Attack1
   m_EditorClassIdentifier: 
   Name: Attack1
-  Type: 0
+  SkillType: 0
   Description: ATK +1
   AttackBoost: 1
   ThoughnessBoost: 0
   ConstitutionBoost: 0
-  Behaviours: []
+  Behaviours:
+  - 
