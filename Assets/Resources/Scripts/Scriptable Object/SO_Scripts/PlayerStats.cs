@@ -5,12 +5,9 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     public string Name;
-    public Stats MaxHp;
     public float Hp;
     public bool IsDead;
-    public Stats BaseHP;
 
-    public float constitution;
 
     public Stats SpecialStats;
 
@@ -18,26 +15,9 @@ public class PlayerStats : ScriptableObject
     public Stats[] PlayerStatistics;
     public ConsumableResource consumableResource;
 
-    public Dictionary<string, Stats> Stats = new Dictionary<string, Stats>();
+    public Dictionary<StatsName, Stats> Stats = new Dictionary<StatsName, Stats>();
 
-    //public float Constitution
-    //{
-    //    get => constitution;
-    //    set
-    //    {
-    //        constitution += value;
-    //        SetHP();
 
-    //    }
-    //}
-
-    public float Luck
-    {
-        set
-        {
-
-        }
-    }
     //public  Constitution; //MAX HP
     //public int Toughness; //damage reduction
     //public int ConsumableResource; //TO DO-> RENDERLO SCRIPTABLE OBJECT CON LA LOGICA INTRINSECA DI COME SI GUADAGNA (POTREBBE VARIARE IN BASE AL PERSONAGGIO)
@@ -56,21 +36,24 @@ public class PlayerStats : ScriptableObject
         }
     }
 
-    public Stats GetStats(string statsName)
+    public Stats GetStats(StatsName statsName)
     {
         return Stats[statsName];
     }
 
-    public void ModifyStat(Stats stat, int amount = 1)
+    public void ModifyStat(StatsName stat, int amount = 1)
     {
-        stat.ModifyStat(amount);
+        Stats[stat].ModifyStat(amount);
     }
 
-    public void SetHP()
+    public void ResetHP()
     {
-        Stats["Constitution"].Logic();
-        Hp = MaxHp.Value;
+        Hp = Stats[StatsName.MaxHp].Value;
     }
 
+    public void SetInitialConsumable(float amount)
+    {
+        consumableResource.SetValue(amount);
+    }
 
 }

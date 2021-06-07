@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
     public Enemy_SO enemyStats;
     public GameObject weapon;
 
+    [HideInInspector] public Movement moveScr;
+    [HideInInspector] public NavMeshAgent agent;
     Animator animator;
     Material mat;
-    [HideInInspector] public Movement moveScr;
 
     // Start is called before the first frame update
     void Start()
@@ -17,30 +19,34 @@ public class EnemyController : MonoBehaviour
         moveScr = GetComponent<Movement>();
         animator = GetComponent<Animator>();
         mat = GetComponent<SpriteRenderer>().material;
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         //AwakeAnim();
     }
 
     void Update()
     {
-
+        float dir = transform.position.x - agent.steeringTarget.x;
+        moveScr.FlipSprite(-dir);
     }
-    public Vector2 SetInput()
-    {
+    //public Vector2 SetInput()
+    //{
 
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+    //    float x = Input.GetAxis("Horizontal");
+    //    float y = Input.GetAxis("Vertical");
 
 
-        return new Vector2(x, y);
-    }
-    public void AwakeAnim()
-    {
-        animator.SetTrigger("Awake");
-    }
-    public void Attack()
-    {
-        animator.SetTrigger("Attack");
-    }
+    //    return new Vector2(x, y);
+    //}
+    //public void AwakeAnim()
+    //{
+    //    animator.SetTrigger("Awake");
+    //}
+    //public void Attack()
+    //{
+    //    animator.SetTrigger("Attack");
+    //}
     public void TakeDamage(float damage)
     {
         if (enemyStats.isDead) return;

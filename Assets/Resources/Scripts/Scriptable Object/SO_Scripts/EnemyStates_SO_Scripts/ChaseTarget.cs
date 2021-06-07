@@ -16,13 +16,16 @@ public class ChaseTarget : State
     public override void StateUpdate()
     {
 
-        float direction = Mathf.Sign(Owner.transform.position.x - target.position.x);
-        Owner.moveScr.PerformMove(Owner.enemyStats.Speed, -direction);
+        Owner.agent.SetDestination(target.position);
+
+        //float direction = Mathf.Sign(Owner.transform.position.x - target.position.x);
+        //Owner.moveScr.PerformMove(Owner.enemyStats.Speed, -direction);
     }
     public override void OnEnterState(EnemyController owner)
     {
         base.OnEnterState(owner);
         target = player.transform;
+        owner.agent.isStopped = false;
     }
 
 }

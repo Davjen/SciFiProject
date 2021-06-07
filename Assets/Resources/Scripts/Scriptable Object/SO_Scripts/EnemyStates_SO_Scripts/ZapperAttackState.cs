@@ -22,5 +22,6 @@ public class ZapperAttackState : State
     {
         base.OnEnterState(owner);
         owner.enemyStats.attackToPerform = attackToPerform;
+        owner.agent.isStopped = true;
     }
 }

@@ -20,4 +20,4 @@ MonoBehaviour:
   constitution: 0
   SpecialStats: {fileID: 11400000, guid: ffd7fec7a51c19e49965ac7fed12ece0, type: 2}
   PlayerStatistics: []
-  consumableResource: {fileID: 0}
+  consumableResource: {fileID: 11400000, guid: 896c8fec12c8dd64e9357452cf70ffc6, type: 2}

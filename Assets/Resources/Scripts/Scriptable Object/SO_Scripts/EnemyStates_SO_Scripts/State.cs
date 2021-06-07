@@ -17,6 +17,8 @@ public abstract class State : ScriptableObject
         anim = owner.GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
+
+
     public virtual void AnimatorSetParam(Transition transition)
     {
         switch (transition.paramType)

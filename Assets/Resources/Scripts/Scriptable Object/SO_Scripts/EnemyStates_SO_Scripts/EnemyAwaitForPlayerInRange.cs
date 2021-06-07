@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "AwaitForRange", menuName = "IA/AwaitForRange")]
 public class EnemyAwaitForPlayerInRange : State
 {
@@ -11,7 +12,8 @@ public class EnemyAwaitForPlayerInRange : State
     [Header("triggers")]
     public Transition OnPlayerInRange;
 
-    private float Range;
+    private float EnterRange;
+    private float ExitRange;
     public override void OnExitState()
     {
         return;
@@ -21,13 +23,13 @@ public class EnemyAwaitForPlayerInRange : State
     {
         if (checkIfEnterOnRadius)
         {
-            if (Vector3.Distance(player.transform.position, Owner.transform.position) <= Range)
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) <= EnterRange)
             {
                 AnimatorSetParam(OnPlayerInRange);
             }
         }else
         {
-            if (Vector3.Distance(player.transform.position, Owner.transform.position) >= Range)
+            if (Vector3.Distance(player.transform.position, Owner.transform.position) >= ExitRange)
             {
                 AnimatorSetParam(OnPlayerInRange);
             }
@@ -40,18 +42,8 @@ public class EnemyAwaitForPlayerInRange : State
         base.OnEnterState(owner);
         player = GameObject.FindGameObjectWithTag("Player");
 
-        switch (rangeToCheck)
-        {
-            case RangeToCheck.Chase:
-                Range = Owner.enemyStats.DistForEnterChase;
-                break;
-            case RangeToCheck.Attack:
-                Range = Owner.enemyStats.DistForEnterAttack;
-                break;
-            case RangeToCheck.Wake:
-                Range = Owner.enemyStats.WakeDistance;
-                break;
-        }
+        EnterRange = owner.enemyStats.Ranges[rangeToCheck].EnterValue;
+        ExitRange = owner.enemyStats.Ranges[rangeToCheck].ExitValue;
     }
 }
 

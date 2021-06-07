@@ -13,14 +13,27 @@ MonoBehaviour:
   m_Name: Zapper
   m_EditorClassIdentifier: 
   HP: 40
-  Damage: 0
   xpToGain: 0
   Speed: 2.22
   HaveTarget: 0
   isDead: 0
+  attackToPerform: {fileID: 11400000, guid: bf15dabc6d1af9240928b8a58aa21a1d, type: 2}
   StartHP: 40
+  ranges:
+  - type: 0
+    EnterValue: 5
+    ExitValue: 6
+  - type: 1
+    EnterValue: 3
+    ExitValue: 4
+  - type: 2
+    EnterValue: 5
+    ExitValue: 10
   PatrolMaxDist: 7
   DistForEnterChase: 5
+  DistForExitChase: 6
   DistForEnterAttack: 3
-  WakeDistance: 10
+  DistForExitAttack: 4
+  AwakeDistance: 5
+  SleepDistance: 20
   chanceToStartPatrol: 50

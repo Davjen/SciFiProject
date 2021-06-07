@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - EnemyWeapon
+  - Enemy
+  - Bullet
+  - Sword
   layers:
   - Default
   - TransparentFX
@@ -14,9 +17,9 @@ TagManager:
   - UI
   - Ground
   - Test
-  - 
-  - 
-  - 
+  - Obstacles_A*
+  - Player
+  - Sword
   - 
   - 
   - 
@@ -47,4 +50,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2658357653
+    locked: 0
+  - name: Obstacles
+    uniqueID: 379812671
     locked: 0
