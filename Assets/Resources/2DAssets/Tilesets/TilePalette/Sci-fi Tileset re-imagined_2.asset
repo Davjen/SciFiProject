@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sci-fi Tileset re-imagined_2
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 7706864762406613191, guid: 4ce151f6698802248a4848dcdc098632, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8301887, g: 0.3563546, b: 0.3563546, a: 1}
   m_Transform:
     e00: 1
     e01: 0
