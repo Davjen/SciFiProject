@@ -19,6 +19,16 @@ MonoBehaviour:
   isDead: 0
   attackToPerform: {fileID: 11400000, guid: bf15dabc6d1af9240928b8a58aa21a1d, type: 2}
   StartHP: 40
+  ranges:
+  - type: 0
+    EnterValue: 5
+    ExitValue: 6
+  - type: 1
+    EnterValue: 3
+    ExitValue: 4
+  - type: 2
+    EnterValue: 5
+    ExitValue: 10
   PatrolMaxDist: 7
   DistForEnterChase: 5
   DistForExitChase: 6

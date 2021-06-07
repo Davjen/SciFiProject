@@ -28,26 +28,25 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         float dir = transform.position.x - agent.steeringTarget.x;
-        Debug.Log(-dir);
         moveScr.FlipSprite(-dir);
     }
-    public Vector2 SetInput()
-    {
+    //public Vector2 SetInput()
+    //{
 
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+    //    float x = Input.GetAxis("Horizontal");
+    //    float y = Input.GetAxis("Vertical");
 
 
-        return new Vector2(x, y);
-    }
-    public void AwakeAnim()
-    {
-        animator.SetTrigger("Awake");
-    }
-    public void Attack()
-    {
-        animator.SetTrigger("Attack");
-    }
+    //    return new Vector2(x, y);
+    //}
+    //public void AwakeAnim()
+    //{
+    //    animator.SetTrigger("Awake");
+    //}
+    //public void Attack()
+    //{
+    //    animator.SetTrigger("Attack");
+    //}
     public void TakeDamage(float damage)
     {
         if (enemyStats.isDead) return;

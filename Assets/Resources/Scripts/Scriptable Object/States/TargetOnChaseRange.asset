@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   PauseMode: 0
-  Range: 5
   checkIfEnterOnRadius: 1
+  rangeToCheck: 0
   OnPlayerInRange:
     triggerName: TargetOnRange
     paramType: 1

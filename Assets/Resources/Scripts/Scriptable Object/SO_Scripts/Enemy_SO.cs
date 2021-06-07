@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 [CreateAssetMenu(fileName = "Enemy",menuName = "Enemy/Enemy")]
 public class Enemy_SO : ScriptableObject
@@ -16,7 +18,8 @@ public class Enemy_SO : ScriptableObject
     [Header("START PROP")]
     public float StartHP;
 
-    [Header("IA_PATROL")]
+    [Header("IA DISTANCE")]
+    [SerializeField] private Range[] ranges; 
     public float PatrolMaxDist = 4;
     public float DistForEnterChase;
     public float DistForExitChase;
@@ -24,6 +27,7 @@ public class Enemy_SO : ScriptableObject
     public float DistForExitAttack;
     public float AwakeDistance;
     public float SleepDistance;
+    public Dictionary<RangeToCheck, Range> Ranges = new Dictionary<RangeToCheck, Range>();
     [Range(0, 100)]
     //non implementato
     public float chanceToStartPatrol = 50f; //probabilità di iniziare subito il patrol senza aspettare che il player si avvicini  
@@ -37,5 +41,18 @@ public class Enemy_SO : ScriptableObject
     private void OnEnable()
     {
         Reset();
+        Ranges.Clear();
+        foreach (Range val in ranges)
+        {
+            Ranges.Add(val.type, val);
+        }
     }
+}
+
+[Serializable]
+public struct Range
+{
+    public RangeToCheck type;
+    public float EnterValue;
+    public float ExitValue;
 }
