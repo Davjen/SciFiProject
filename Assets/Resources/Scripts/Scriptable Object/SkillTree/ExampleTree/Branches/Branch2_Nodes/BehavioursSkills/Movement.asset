@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53fb0ae892005e24eb8972038a05b942, type: 3}
-  m_Name: DoubleJump
+  m_Name: Movement
   m_EditorClassIdentifier: 
   Name: 
   SkillType: 1
@@ -18,4 +18,5 @@ MonoBehaviour:
   AttackBoost: 0
   ThoughnessBoost: 0
   ConstitutionBoost: 0
-  Behaviours: []
+  Behaviours:
+  - Movement
