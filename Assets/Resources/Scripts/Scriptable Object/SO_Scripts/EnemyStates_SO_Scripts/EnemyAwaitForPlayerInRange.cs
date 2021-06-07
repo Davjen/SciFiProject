@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "AwaitForRange", menuName = "IA/AwaitForRange")]
 public class EnemyAwaitForPlayerInRange : State
 {
@@ -41,21 +42,8 @@ public class EnemyAwaitForPlayerInRange : State
         base.OnEnterState(owner);
         player = GameObject.FindGameObjectWithTag("Player");
 
-        switch (rangeToCheck)
-        {
-            case RangeToCheck.Chase:
-                EnterRange = Owner.enemyStats.DistForEnterChase;
-                ExitRange = Owner.enemyStats.DistForExitChase;
-                break;
-            case RangeToCheck.Attack:
-                EnterRange = Owner.enemyStats.DistForEnterAttack;
-                ExitRange = Owner.enemyStats.DistForExitAttack;
-                break;
-            case RangeToCheck.Wake:
-                EnterRange = Owner.enemyStats.AwakeDistance;
-                ExitRange = Owner.enemyStats.SleepDistance;
-                break;
-        }
+        EnterRange = owner.enemyStats.Ranges[rangeToCheck].EnterValue;
+        ExitRange = owner.enemyStats.Ranges[rangeToCheck].ExitValue;
     }
 }
 
