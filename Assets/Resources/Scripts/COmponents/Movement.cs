@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class Movement : Component
 {
-     Animator anim;
+    Animator anim;
 
-     Rigidbody2D rb;
+    Rigidbody2D rb;
     private bool turnLeft=true;
     private bool turnRight;
+    private bool canFlip = true;
 
     private void Start()
     {
@@ -28,11 +29,24 @@ public class Movement : Component
 
     public void PerformMove(float speed,  float xDirection,float yDirection=0)
     {
+        if(canFlip)
         FlipSprite(xDirection);
 
         anim.SetFloat("Speed", Mathf.Abs(xDirection));
         float yMove = yDirection != 0 ? yDirection /** speed */: rb.velocity.y;
         rb.velocity = new Vector2(xDirection /** speed*/, yMove).normalized * speed;
+    }
+    public void CanFlip(int val)
+    {
+
+        if (val == 0)
+        {
+            canFlip = false;
+        }
+        else
+        {
+            canFlip = true;
+        }
     }
 
     public void FlipSprite(float direction)

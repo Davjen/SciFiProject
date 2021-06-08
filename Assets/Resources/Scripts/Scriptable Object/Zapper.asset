@@ -24,16 +24,9 @@ MonoBehaviour:
     EnterValue: 5
     ExitValue: 6
   - type: 1
-    EnterValue: 3
-    ExitValue: 4
+    EnterValue: 1.4
+    ExitValue: 1.7
   - type: 2
     EnterValue: 5
     ExitValue: 10
-  PatrolMaxDist: 7
-  DistForEnterChase: 5
-  DistForExitChase: 6
-  DistForEnterAttack: 3
-  DistForExitAttack: 4
-  AwakeDistance: 5
-  SleepDistance: 20
   chanceToStartPatrol: 50

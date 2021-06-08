@@ -20,13 +20,6 @@ public class Enemy_SO : ScriptableObject
 
     [Header("IA DISTANCE")]
     [SerializeField] private Range[] ranges; 
-    public float PatrolMaxDist = 4;
-    public float DistForEnterChase;
-    public float DistForExitChase;
-    public float DistForEnterAttack;
-    public float DistForExitAttack;
-    public float AwakeDistance;
-    public float SleepDistance;
     public Dictionary<RangeToCheck, Range> Ranges = new Dictionary<RangeToCheck, Range>();
     [Range(0, 100)]
     //non implementato
