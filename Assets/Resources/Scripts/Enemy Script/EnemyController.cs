@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
 {
     public Enemy_SO enemyStats;
     public GameObject weapon;
+    public float dir;
 
     [HideInInspector] public Movement moveScr;
     [HideInInspector] public NavMeshAgent agent;
@@ -27,7 +28,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        float dir = transform.position.x - agent.steeringTarget.x;
+        
         moveScr.FlipSprite(-dir);
     }
     //public Vector2 SetInput()

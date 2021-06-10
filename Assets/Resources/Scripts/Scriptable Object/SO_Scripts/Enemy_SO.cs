@@ -19,7 +19,9 @@ public class Enemy_SO : ScriptableObject
     public float StartHP;
 
     [Header("IA DISTANCE")]
-    [SerializeField] private Range[] ranges; 
+    [SerializeField] private Range[] ranges;
+    public float attackPositionDistanceX = 1;
+    public float attackPositionDistanceY = 0.5f;
     public Dictionary<RangeToCheck, Range> Ranges = new Dictionary<RangeToCheck, Range>();
     [Range(0, 100)]
     //non implementato

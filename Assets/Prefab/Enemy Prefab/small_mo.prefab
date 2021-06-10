@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyStats: {fileID: 11400000, guid: 56523220d1ff7a244b73418c35bf7ea8, type: 2}
   weapon: {fileID: 0}
+  dir: 0
   moveScr: {fileID: 0}
   agent: {fileID: 0}
 --- !u!50 &5358684024945391663
@@ -155,6 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055c462e62173994a8d18e5ad09697da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canFlip: 1
 --- !u!195 &5358684024945391656
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -163,7 +165,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5358684024945391649}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -334000983
   m_Radius: 0.35
   m_Speed: 3.5
   m_Acceleration: 8

@@ -24,9 +24,11 @@ MonoBehaviour:
     EnterValue: 5
     ExitValue: 6
   - type: 1
-    EnterValue: 1.4
-    ExitValue: 1.7
+    EnterValue: 2
+    ExitValue: 4
   - type: 2
     EnterValue: 5
     ExitValue: 10
+  attackPositionDistanceX: 2.5
+  attackPositionDistanceY: 0.5
   chanceToStartPatrol: 50

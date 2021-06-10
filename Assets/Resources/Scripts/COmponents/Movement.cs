@@ -10,7 +10,7 @@ public class Movement : Component
     Rigidbody2D rb;
     private bool turnLeft=true;
     private bool turnRight;
-    private bool canFlip = true;
+    public bool canFlip = true;
 
     private void Start()
     {
@@ -20,6 +20,8 @@ public class Movement : Component
 
     public void PerformMove(float speed, Vector2 direction)
     {
+
+
         FlipSprite(direction.x);
         float dir =direction.x !=0 ? Mathf.Abs(direction.x) : Mathf.Abs(direction.y);
         anim.SetFloat("Speed", dir );
@@ -29,8 +31,7 @@ public class Movement : Component
 
     public void PerformMove(float speed,  float xDirection,float yDirection=0)
     {
-        if(canFlip)
-        FlipSprite(xDirection);
+
 
         anim.SetFloat("Speed", Mathf.Abs(xDirection));
         float yMove = yDirection != 0 ? yDirection /** speed */: rb.velocity.y;
@@ -51,7 +52,9 @@ public class Movement : Component
 
     public void FlipSprite(float direction)
     {
-        
+        if (!canFlip)
+            return;
+
         if (direction > 0)
         {
             if (!turnLeft)

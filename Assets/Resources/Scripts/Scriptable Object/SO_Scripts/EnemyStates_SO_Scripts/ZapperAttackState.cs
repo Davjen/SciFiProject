@@ -14,8 +14,7 @@ public class ZapperAttackState : State
 
     public override void StateUpdate()
     {
-        direction = -Mathf.Sign(Owner.transform.position.x - player.transform.position.x);
-        Owner.moveScr.FlipSprite(direction);
+
 
     }
     public override void OnEnterState(EnemyController owner)
